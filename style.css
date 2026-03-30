@@ -706,6 +706,21 @@ strong.green { color: #43a047; }
     margin-top: 8px;
 }
 
+.custom-tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--color-lightgrey);
+    border: 1px solid #111;
+    color: var(--osrs-yellow);
+    padding: 2px 5px;
+    font-family: 'OSRS-Font', sans-serif;
+    font-size: 16px;
+    z-index: 10000;
+    display: none;
+    white-space: nowrap;
+    text-shadow: 1px 1px 1px #000;
+}
+
 #modal-action-btn {
     font-size: 15px;
     padding: 8px;

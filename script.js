@@ -27,7 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.id = `item-source-${index}`; 
 
                 div.draggable = true;
-                div.innerHTML = `<img loading="lazy" src="cdn/items/${item.image}" title="${item.name}" onerror="this.parentElement.remove();">`;
+                div.innerHTML = `<img loading="lazy" src="cdn/items/${item.image}" data-name="${item.name}" onerror="this.parentElement.remove();">`;
 
                 div.addEventListener('dblclick', () => {
                     addItemToNextFreeSlot(div);
@@ -60,7 +60,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const items = document.querySelectorAll('.item-list .item');
         items.forEach(item => {
             const img = item.querySelector('img');
-            const itemName = img ? (img.title || "").toLowerCase() : "";
+            const itemName = img ? (img.dataset.name || "").toLowerCase() : "";
             item.classList.toggle('hidden', !itemName.includes(query));
         });
     });
@@ -125,6 +125,36 @@ document.addEventListener('DOMContentLoaded', () => {
           e.preventDefault();
       }
   });
+
+    // Custom Tooltip Logic
+    const tooltip = document.createElement('div');
+    tooltip.className = 'custom-tooltip';
+    document.body.appendChild(tooltip);
+
+    document.addEventListener('mouseover', (e) => {
+        const item = e.target.closest('.item');
+        if (item && !document.body.classList.contains('dragging-item')) {
+            const img = item.querySelector('img');
+            if (img && img.dataset.name) {
+                tooltip.textContent = img.dataset.name;
+                tooltip.style.display = 'block';
+            }
+        }
+    });
+
+    document.addEventListener('mousemove', (e) => {
+        if (tooltip.style.display === 'block') {
+            tooltip.style.left = (e.clientX + 15) + 'px';
+            tooltip.style.top = (e.clientY + 15) + 'px';
+        }
+    });
+
+    document.addEventListener('mouseout', (e) => {
+        if (e.target.closest('.item')) {
+            tooltip.style.display = 'none';
+        }
+    });
+    document.addEventListener('dragstart', () => tooltip.style.display = 'none');
 });
 
 function updateBankCounter() {
