@@ -25,8 +25,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 const div = document.createElement("div");
                 div.className = "item";
                 div.id = `item-source-${index}`; 
+
                 div.draggable = true;
                 div.innerHTML = `<img loading="lazy" src="cdn/items/${item.image}" title="${item.name}" onerror="this.parentElement.remove();">`;
+
+                div.addEventListener('dblclick', () => {
+                    addItemToNextFreeSlot(div);
+                });
+
                 itemList.appendChild(div);
                 DragDrop.makeDraggable(div);
             });
@@ -129,4 +135,30 @@ function updateBankCounter() {
     });
     const counter = document.getElementById('current-count');
     if (counter) counter.textContent = filledCount;
+}
+
+function addItemToNextFreeSlot(sourceItem) {
+    const slots = document.querySelectorAll('.bank-grid .slot');
+    
+    const firstEmptySlot = Array.from(slots).find(slot => slot.children.length === 0);
+
+    if (firstEmptySlot) {
+        const newItem = sourceItem.cloneNode(true);
+        
+        newItem.id = `bank-item-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
+        newItem.classList.remove('dragging', 'hidden');
+        
+        DragDrop.makeDraggable(newItem);
+        
+        firstEmptySlot.appendChild(newItem);
+
+        updateBankCounter();
+
+        if (typeof StorageManager !== 'undefined') {
+            StorageManager.autoSave(Array.from(slots));
+        }
+        
+        firstEmptySlot.style.filter = "brightness(1.5)";
+        setTimeout(() => firstEmptySlot.style.filter = "", 100);
+    }
 }
