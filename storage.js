@@ -68,7 +68,7 @@ const StorageManager = {
         }
 
         const newEmptyData = new Array(slots.length).fill(null);
-        const newId = Date.now();
+        const newId = `layout-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
         
         savedLayouts.push({ id: newId, data: newEmptyData });
         localStorage.setItem(this.CONFIG.storageKey, JSON.stringify(savedLayouts));
@@ -199,7 +199,7 @@ const StorageManager = {
             if (data && data[i]) {
                 const div = document.createElement("div");
                 div.className = "item";
-                div.id = `loaded-${Date.now()}-${i}`;
+                div.id = `loaded-${Date.now()}-${i}-${Math.floor(Math.random() * 1000)}`;
                 div.draggable = true;
                 div.innerHTML = `<img src="${data[i].src}" title="${data[i].name}">`;
                 slot.appendChild(div);

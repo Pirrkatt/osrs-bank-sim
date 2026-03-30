@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             let itemToPlace = dragged;
             if (dragged.parentElement === itemList) {
                 itemToPlace = dragged.cloneNode(true);
-                itemToPlace.id = `bank-item-${Date.now()}`;
+                itemToPlace.id = `bank-item-${Date.now()}-${Math.floor(Math.random() * 1000)}`;
                 itemToPlace.classList.remove('dragging');
                 DragDrop.makeDraggable(itemToPlace);
             }
