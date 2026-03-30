@@ -3,7 +3,7 @@ const StorageManager = {
     isAutosaveEnabled: false,
 
     CONFIG: {
-        maxSavedLayouts: 9,
+        maxSavedLayouts: 10,
         storageKey: 'bank_layouts_data',
         startTop: 47,
         startLeft: 58
