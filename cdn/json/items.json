@@ -2,21 +2,21 @@
   {
     "name": "??? mixture",
     "id": 5591,
-    "image": "_mixture_(horrible).png",
+    "image": "mixture_(horrible).png",
     "slot": "",
     "category": null
   },
   {
     "name": "??? mixture",
     "id": 5589,
-    "image": "_mixture_(hot).png",
+    "image": "mixture_(hot).png",
     "slot": "",
     "category": null
   },
   {
     "name": "??? mixture",
     "id": 5590,
-    "image": "_mixture_(warm).png",
+    "image": "mixture_(warm).png",
     "slot": "",
     "category": null
   },
@@ -7822,13 +7822,6 @@
     "name": "Bandos tassets",
     "id": 11834,
     "image": "Bandos_tassets.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Bandos tassets",
-    "id": 23646,
-    "image": "Bandos_tassets_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -15988,13 +15981,6 @@
     "category": null
   },
   {
-    "name": "Bucket",
-    "id": 8986,
-    "image": "Bucket_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Bucket helm",
     "id": 19991,
     "image": "Bucket_helm.png",
@@ -17437,13 +17423,6 @@
     "category": null
   },
   {
-    "name": "Canister",
-    "id": 7118,
-    "image": "Canister_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Cannon ball",
     "id": 4579,
     "image": "Cannon_ball_(Between_a_Rock...).png",
@@ -18698,13 +18677,6 @@
   },
   {
     "name": "Chisel",
-    "id": 7004,
-    "image": "Chisel_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Chisel",
     "id": 28414,
     "image": "Chisel_(Desert_Treasure_II).png",
     "slot": "",
@@ -19734,7 +19706,28 @@
   },
   {
     "name": "Clue scroll (beginner)",
-    "id": null,
+    "id": 23182,
+    "image": "Clue_scroll_(beginner).png",
+    "slot": "",
+    "category": null
+  },
+  {
+    "name": "Clue scroll (beginner)",
+    "id": 23182,
+    "image": "Clue_scroll_(beginner).png",
+    "slot": "",
+    "category": null
+  },
+  {
+    "name": "Clue scroll (beginner)",
+    "id": 23182,
+    "image": "Clue_scroll_(beginner).png",
+    "slot": "",
+    "category": null
+  },
+  {
+    "name": "Clue scroll (beginner)",
+    "id": 23182,
     "image": "Clue_scroll_(beginner).png",
     "slot": "",
     "category": null
@@ -19769,20 +19762,6 @@
   },
   {
     "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
     "id": 23182,
     "image": "Clue_scroll_(beginner).png",
     "slot": "",
@@ -19791,34 +19770,6 @@
   {
     "name": "Clue scroll (beginner)",
     "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
     "image": "Clue_scroll_(beginner).png",
     "slot": "",
     "category": null
@@ -19846,56 +19797,7 @@
   },
   {
     "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
     "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": 23182,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
-    "image": "Clue_scroll_(beginner).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Clue scroll (beginner)",
-    "id": null,
     "image": "Clue_scroll_(beginner).png",
     "slot": "",
     "category": null
@@ -31591,13 +31493,6 @@
     "category": null
   },
   {
-    "name": "Dark nullifier",
-    "id": 25815,
-    "image": "Dark_nullifier.png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Dark relic",
     "id": 21027,
     "image": "Dark_relic.png",
@@ -33995,13 +33890,6 @@
     "name": "Dossier",
     "id": 30803,
     "image": "Dossier.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Dossier",
-    "id": 9590,
-    "image": "Dossier_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -37814,13 +37702,6 @@
     "category": null
   },
   {
-    "name": "Empty sack",
-    "id": 10486,
-    "image": "Empty_sack_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Empty spice shaker",
     "id": 7496,
     "image": "Empty_spice_shaker.png",
@@ -38864,13 +38745,6 @@
     "category": null
   },
   {
-    "name": "null <sup><span style=\"cursor:help; border-bottom:1px dotted\" title=\"The name of this entity is not defined in the game.\">[?]</span></sup>[[Category:Pages with null name]]",
-    "id": 796,
-    "image": "Exploding_vial_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Explorer backpack",
     "id": 12514,
     "image": "Explorer_backpack.png",
@@ -39788,13 +39662,6 @@
     "category": null
   },
   {
-    "name": "Fire cape",
-    "id": 10566,
-    "image": "Fire_cape_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Fire cape (broken)",
     "id": 20445,
     "image": "Fire_cape_(broken).png",
@@ -39840,13 +39707,6 @@
     "name": "Fire giant bone",
     "id": 7872,
     "image": "Fire_giant_bone.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Fire max cape",
-    "id": 21186,
-    "image": "Fire_max_cape_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -40999,13 +40859,6 @@
     "category": null
   },
   {
-    "name": "Fremennik kilt",
-    "id": 27177,
-    "image": "Fremennik_kilt_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Fremennik pink cloak",
     "id": 3787,
     "image": "Fremennik_pink_cloak.png",
@@ -41919,13 +41772,6 @@
     "name": "Ghrazi rapier",
     "id": 22324,
     "image": "Ghrazi_rapier.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ghrazi rapier",
-    "id": 23628,
-    "image": "Ghrazi_rapier_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -44674,13 +44520,6 @@
     "category": null
   },
   {
-    "name": "Grapple",
-    "id": 9415,
-    "image": "Grapple_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Gravedigger boots",
     "id": 13286,
     "image": "Gravedigger_boots.png",
@@ -46081,13 +45920,6 @@
     "category": null
   },
   {
-    "name": "Guthan's helm",
-    "id": 23638,
-    "image": "Guthan's_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Guthan's helm 0",
     "id": 4908,
     "image": "Guthan's_helm_0.png",
@@ -46364,13 +46196,6 @@
     "name": "Guthix full helm",
     "id": 2673,
     "image": "Guthix_full_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthix halo",
-    "id": 27163,
-    "image": "Guthix_halo.png",
     "slot": "head",
     "category": null
   },
@@ -47764,13 +47589,6 @@
     "name": "Hemp yarn",
     "id": 31466,
     "image": "Hemp_yarn.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Herb bowl",
-    "id": 797,
-    "image": "Herb_bowl_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -49540,13 +49358,6 @@
   },
   {
     "name": "Infernal cape",
-    "id": 21297,
-    "image": "Infernal_cape_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Infernal cape",
     "id": 23622,
     "image": "Infernal_cape_(Last_Man_Standing).png",
     "slot": "cape",
@@ -49627,13 +49438,6 @@
     "id": 21033,
     "image": "Infernal_harpoon_(uncharged).png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Infernal max cape",
-    "id": 21284,
-    "image": "Infernal_max_cape_(animation_item).png",
-    "slot": "",
     "category": null
   },
   {
@@ -49882,23 +49686,9 @@
     "category": null
   },
   {
-    "name": "Inquisitor's great helm",
-    "id": 27195,
-    "image": "Inquisitor's_great_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Inquisitor's hauberk",
     "id": 24420,
     "image": "Inquisitor's_hauberk.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Inquisitor's hauberk",
-    "id": 27196,
-    "image": "Inquisitor's_hauberk_(Last_Man_Standing).png",
     "slot": "body",
     "category": null
   },
@@ -49910,23 +49700,9 @@
     "category": null
   },
   {
-    "name": "Inquisitor's mace",
-    "id": 27198,
-    "image": "Inquisitor's_mace_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Inquisitor's plateskirt",
     "id": 24421,
     "image": "Inquisitor's_plateskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Inquisitor's plateskirt",
-    "id": 27197,
-    "image": "Inquisitor's_plateskirt_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -52157,13 +51933,6 @@
     "category": null
   },
   {
-    "name": "null <sup><span style=\"cursor:help; border-bottom:1px dotted\" title=\"The name of this entity is not defined in the game.\">[?]</span></sup>[[Category:Pages with null name]]",
-    "id": 30946,
-    "image": "Key_(Forebearer_Janus).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Key",
     "id": 1548,
     "image": "Key_(green).png",
@@ -53356,7 +53125,7 @@
   {
     "name": "Lava scale shard",
     "id": 3256,
-    "image": "_Lava_scale_shard_5.png",
+    "image": "Lava_scale_shard_5.png",
     "slot": "",
     "category": null
   },
@@ -59304,13 +59073,6 @@
     "category": null
   },
   {
-    "name": "Mouth grip",
-    "id": 4181,
-    "image": "Mouth_grip_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Movario's notes (volume 1)",
     "id": 29525,
     "image": "Movario's_notes_(volume_1).png",
@@ -59685,13 +59447,6 @@
     "name": "Mysterious meat",
     "id": 22403,
     "image": "Mysterious_meat.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "null <sup><span style=\"cursor:help; border-bottom:1px dotted\" title=\"The name of this entity is not defined in the game.\">[?]</span></sup>[[Category:Pages with null name]]",
-    "id": 31337,
-    "image": "Mysterious_medallion.png",
     "slot": "",
     "category": null
   },
@@ -64848,20 +64603,6 @@
     "category": null
   },
   {
-    "name": "Pole",
-    "id": 4500,
-    "image": "Pole_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Null",
-    "id": 4501,
-    "image": "Pole_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Polished buttons",
     "id": 10496,
     "image": "Polished_buttons.png",
@@ -65460,13 +65201,6 @@
     "name": "Prayer book",
     "id": 10890,
     "image": "Prayer_book.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Prayer book",
-    "id": 10886,
-    "image": "Prayer_book_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -69601,13 +69335,6 @@
     "category": null
   },
   {
-    "name": "Repair plank",
-    "id": 7121,
-    "image": "Repair_plank_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Request note",
     "id": 28433,
     "image": "Request_note.png",
@@ -71095,13 +70822,6 @@
     "name": "Rope",
     "id": 954,
     "image": "Rope.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Rope",
-    "id": 4498,
-    "image": "Rope_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -73010,13 +72730,6 @@
     "category": null
   },
   {
-    "name": "Rusty sword",
-    "id": 7758,
-    "image": "Rusty_sword_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "S.t.a.s.h blueprint",
     "id": 25612,
     "image": "S.t.a.s.h_blueprint.png",
@@ -74018,13 +73731,6 @@
     "category": null
   },
   {
-    "name": "Saradomin halo",
-    "id": 27165,
-    "image": "Saradomin_halo.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Saradomin halo (broken)",
     "id": 20537,
     "image": "Saradomin_halo_(broken).png",
@@ -74567,13 +74273,6 @@
     "name": "Scribbled notes",
     "id": 33146,
     "image": "Scribbled_notes.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Scroll",
-    "id": 10485,
-    "image": "Scroll_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -76192,13 +75891,6 @@
     "id": 5044,
     "image": "Shorts_(yellow).png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Shot",
-    "id": 8857,
-    "image": "Shot_(animation_item).png",
-    "slot": "",
     "category": null
   },
   {
@@ -78857,7 +78549,7 @@
   {
     "name": "Small ninja bonemeal",
     "id": 4263,
-    "image": "_Small_ninja_bonemeal.png",
+    "image": "Small_ninja_bonemeal.png",
     "slot": "",
     "category": null
   },
@@ -79433,13 +79125,6 @@
     "id": 10501,
     "image": "Snowball_5.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Snowball",
-    "id": 10509,
-    "image": "Snowball_(animation_item).png",
-    "slot": "",
     "category": null
   },
   {
@@ -80783,13 +80468,6 @@
     "name": "Spiked manacles",
     "id": 23389,
     "image": "Spiked_manacles.png",
-    "slot": "feet",
-    "category": null
-  },
-  {
-    "name": "Spiked manacles",
-    "id": 27178,
-    "image": "Spiked_manacles_(Last_Man_Standing).png",
     "slot": "feet",
     "category": null
   },
@@ -82671,13 +82349,6 @@
   },
   {
     "name": "Stick",
-    "id": 9702,
-    "image": "Stick_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Stick",
     "id": 4179,
     "image": "Stick_(item).png",
     "slot": "",
@@ -83009,13 +82680,6 @@
     "name": "Stony basalt",
     "id": 22601,
     "image": "Stony_basalt.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Stool",
-    "id": 5732,
-    "image": "Stool_(animation_item).png",
     "slot": "",
     "category": null
   },
@@ -85183,20 +84847,6 @@
     "category": null
   },
   {
-    "name": "null <sup><span style=\"cursor:help; border-bottom:1px dotted\" title=\"The name of this entity is not defined in the game.\">[?]</span></sup>[[Category:Pages with null name]]",
-    "id": 10860,
-    "image": "Tea_flask_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "null <sup><span style=\"cursor:help; border-bottom:1px dotted\" title=\"The name of this entity is not defined in the game.\">[?]</span></sup>[[Category:Pages with null name]]",
-    "id": 10861,
-    "image": "Tea_flask_(animation_item).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Tea leaves",
     "id": 7738,
     "image": "Tea_leaves.png",
@@ -87077,13 +86727,6 @@
     "id": 4747,
     "image": "Torag's_hammers.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's helm",
-    "id": 23637,
-    "image": "Torag's_helm_(Last_Man_Standing).png",
-    "slot": "head",
     "category": null
   },
   {
@@ -90510,13 +90153,6 @@
     "category": null
   },
   {
-    "name": "Verac's brassard",
-    "id": 27190,
-    "image": "Verac's_brassard_(Last_Man_Standing).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Verac's brassard 0",
     "id": 4992,
     "image": "Verac's_brassard_0.png",
@@ -90556,13 +90192,6 @@
     "id": 4757,
     "image": "Verac's_brassard.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's flail",
-    "id": 27189,
-    "image": "Verac's_flail_(Last_Man_Standing).png",
-    "slot": "2h",
     "category": null
   },
   {
@@ -90608,13 +90237,6 @@
     "category": null
   },
   {
-    "name": "Verac's helm",
-    "id": 23636,
-    "image": "Verac's_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Verac's helm 0",
     "id": 4980,
     "image": "Verac's_helm_0.png",
@@ -90654,13 +90276,6 @@
     "id": 4753,
     "image": "Verac's_helm.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt",
-    "id": 23635,
-    "image": "Verac's_plateskirt_(Last_Man_Standing).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -94854,13 +94469,6 @@
     "id": 20077,
     "image": "Zamorak_godsword_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Zamorak halo",
-    "id": 27164,
-    "image": "Zamorak_halo.png",
-    "slot": "head",
     "category": null
   },
   {

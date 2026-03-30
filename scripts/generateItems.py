@@ -126,17 +126,27 @@ def main():
         if pns in data:
             continue
 
-        try:
-            item_id = int(v.get('item_id')[0]) if v.get('item_id') else None
-        except (ValueError, TypeError):
+        item_name = v.get('item_name', '')
+        wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
+        
+        excluded_terms = ['(animation item)', '[[', 'category:', 'null']
+
+        if any(term in item_name.lower() for term in excluded_terms) or \
+           any(term in wiki_img_name.lower() for term in excluded_terms) or \
+           not wiki_img_name:
             continue
 
-        wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
-        if not wiki_img_name:
+        try:
+            raw_id = v.get('item_id')
+            item_id = int(raw_id[0]) if raw_id else None
+            if item_id is None:
+                continue
+        except (ValueError, TypeError, IndexError):
             continue
 
         clean_name = html.unescape(wiki_img_name)
         local_filename = re.sub(r'[\\/*?:"<>|]', '', clean_name).replace(' ', '_')
+        local_filename = local_filename.lstrip('_')
 
         data[pns] = {
             'name': v['item_name'],
