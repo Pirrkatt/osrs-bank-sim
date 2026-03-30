@@ -28,6 +28,8 @@ const StorageManager = {
         this.currentActiveLayoutId = layouts[0].id;
         this.loadLayout(layouts[0].data, slots);
         this.renderTabs(slots);
+
+        this.updateAddTabButtonState();
     },
 
     autoSave(slots) {
@@ -63,7 +65,6 @@ const StorageManager = {
     createNewLayout(slots) {
         let savedLayouts = this.getSavedLayouts();
         if (savedLayouts.length >= this.CONFIG.maxSavedLayouts) {
-            alert(`Max ${this.CONFIG.maxSavedLayouts} tabs allowed.`);
             return;
         }
 
@@ -76,6 +77,8 @@ const StorageManager = {
         this.currentActiveLayoutId = newId;
         this.loadLayout(newEmptyData, slots);
         this.renderTabs(slots);
+
+        this.updateAddTabButtonState();
     },
 
     captureLayout(slots) {
@@ -113,6 +116,8 @@ const StorageManager = {
             this.loadLayout(layouts[0].data, slots);
         }
         this.renderTabs(slots);
+
+        this.updateAddTabButtonState();
     },
 
     renderTabs(slots) {
@@ -209,6 +214,21 @@ const StorageManager = {
 
         if (typeof updateBankCounter === 'function') {
             updateBankCounter();
+        }
+    },
+
+    updateAddTabButtonState() {
+        const saveBtn = document.getElementById('save-layout');
+        if (!saveBtn) return;
+
+        const layouts = this.getSavedLayouts();
+        
+        if (layouts.length >= this.CONFIG.maxSavedLayouts) {
+            saveBtn.disabled = true;
+            saveBtn.setAttribute('data-tooltip', `Maximum of ${this.CONFIG.maxSavedLayouts} tabs reached`);
+        } else {
+            saveBtn.disabled = false;
+            saveBtn.removeAttribute('data-tooltip');
         }
     }
 };

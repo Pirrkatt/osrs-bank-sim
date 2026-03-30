@@ -312,6 +312,39 @@ body {
   transform: scale(0.95);
 }
 
+.save-layout-btn:disabled {
+    opacity: 0.9;
+    transform: none;
+    cursor: default;
+}
+
+.save-layout-btn:disabled img,
+.save-layout-btn:disabled span {
+    filter: grayscale(50%) brightness(0.6) !important;;
+}
+
+.save-layout-btn:disabled:hover {
+    filter: brightness(1) !important;
+}
+
+.save-layout-btn[disabled]:hover::after {
+    content: attr(data-tooltip);
+    position: absolute;
+    bottom: -24px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: var(--color-darkgrey);
+    color: var(--osrs-yellow);
+    padding: 5px 10px;
+    border: 1px solid var(--color-almostblack);
+    border-radius: 5px;
+    font-family: 'OSRS-Font', sans-serif;
+    font-size: 14px;
+    white-space: nowrap;
+    z-index: 100;
+    pointer-events: none;
+}
+
 /* Swap & Insert Buttons */
 .mode-btn {
   position: absolute;
