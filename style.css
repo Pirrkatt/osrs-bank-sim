@@ -133,12 +133,6 @@ body {
   user-select: none;
 }
 
-.item-list .item {
-  background: var(--color-lightgrey);
-  border: 1px solid var(--color-darkgrey);
-  border-radius: 4px;
-}
-
 /* ITEM IN BANK */
 .slot .item {
   background: transparent;
@@ -200,28 +194,30 @@ body {
 }
 
 .item-panel {
-    width: 320px;
+    width: 330px;
     height: 720px;
-    background: #2b2b2b;
-    border: 2px solid #2e2e2e;
-    border-radius: 4px;
-    padding: 12px;
+    height: 866px;
+    background: var(--color-darkgrey);
+    border: 1px solid var(--color-almostblack);
+    border-radius: 8px;
+    padding: 16px;
     display: flex;
     flex-direction: column;
-    box-shadow: inset 2px 2px 0px #5d5d5d, inset -2px -2px 0px #222;
+    box-shadow: 4px 4px 15px rgba(0,0,0,0.5);
 }
 
 .item-panel input {
     width: 100%;
-    padding: 8px;
+    padding: 10px;
     margin-bottom: 12px;
-    background: #111;
-    border: 1px solid #5d5d5d;
-    border-radius: 8px;
+    background: #0a0a0a;
+    border: 1px solid #333;
+    border-radius: 4px;
     color: var(--osrs-orange);
     font-family: 'OSRS-Font', sans-serif;
     font-size: 16px;
     outline: none;
+    transition: border-color 0.2s;
 }
 
 .item-panel input:focus {
@@ -238,9 +234,10 @@ body {
     justify-content: center;
     align-content: start;
     gap: 4px;
-    padding: 8px;
-    background: #383838;
-    border: 1px solid #222;
+    padding: 10px 10px 10px 2px;
+    background: #151515;
+    border: 1px solid #000;
+    border-radius: 4px;
     box-shadow: inset 2px 2px 5px rgba(0,0,0,0.5);
     
     flex-grow: 1;
@@ -257,10 +254,14 @@ body {
     height: 40px;
     aspect-ratio: 1 / 1;
     margin: 0 auto;
+
+    background: var(--color-darkgrey);
+    border: 1px solid var(--color-lightgrey);
+    border-radius: 4px;
 }
 
 .item-list .item:hover {
-    background: rgba(255, 255, 255, 0.1);
+    background: #252525;
     border-color: #5d5d5d;
 }
 
@@ -275,14 +276,13 @@ body {
 }
 
 .item-list::-webkit-scrollbar-track {
-    background: #222;
-    border-left: 1px solid #444;
+    background: #0a0a0a;
+    border-left: 1px solid #222;
 }
 
 .item-list::-webkit-scrollbar-thumb {
-    background: #5d5d5d;
-    border: 1px solid #222;
-    box-shadow: inset 1px 1px 0px #888;
+    background: #333;
+    border: 1px solid #111;
 }
 
 .item-list::-webkit-scrollbar-thumb:active {
