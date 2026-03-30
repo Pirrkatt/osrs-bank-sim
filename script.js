@@ -11,6 +11,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let dragMode = 'swap';
 
+    if (searchInput) {
+        searchInput.value = '';
+    }
+    
+    if (clearBtn) {
+        clearBtn.style.display = 'none';
+    }
+
     // Init storage tabs
     StorageManager.init(slots);
     updateBankCounter();
