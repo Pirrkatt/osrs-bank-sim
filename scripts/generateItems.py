@@ -27,6 +27,27 @@ BUCKET_API_FIELDS = [
     'infobox_bonuses.equipment_slot',
 ]
 
+NAME_EXCEPTIONS = [
+    '(animation item)',
+    '[[',
+    'category:',
+    'null <sup',
+    '(nz)',
+    '(broken)',
+    '(l)',
+    '(bh)',
+]
+
+IMAGE_EXCEPTIONS = [
+    '(animation item)',
+    '(horrible)', # Only for ??? Mixture
+    '(warm)', # Only for ??? Mixture
+    '(nz)',
+    '(Barbarian Assault)',
+    '(The Slug Menace)',
+    '(Last Man Standing)',
+]
+
 def get_safe_filename(wiki_name):
     clean = html.unescape(wiki_name)
     name = re.sub(r'[\\/*?:"<>|]', '', clean).replace(' ', '_')
@@ -140,10 +161,13 @@ def main():
             continue
 
         # Filtering
-        excluded_terms = ['(animation item)', '[[', 'category:', 'null <sup']
-        if any(term in item_name.lower() for term in excluded_terms) or \
-           any(term in wiki_img_name.lower() for term in excluded_terms) or \
-           not wiki_img_name:
+        if any(term.lower() in item_name.lower() for term in NAME_EXCEPTIONS):
+            continue
+
+        if any(term.lower() in wiki_img_name.lower() for term in IMAGE_EXCEPTIONS):
+            continue
+        
+        if not wiki_img_name:
             continue
 
         local_filename = get_safe_filename(wiki_img_name)

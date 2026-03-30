@@ -1,22 +1,8 @@
 [
   {
     "name": "??? mixture",
-    "id": 5591,
-    "image": "mixture_(horrible).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "??? mixture",
     "id": 5589,
     "image": "mixture_(hot).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "??? mixture",
-    "id": 5590,
-    "image": "mixture_(warm).png",
     "slot": "",
     "category": null
   },
@@ -616,34 +602,6 @@
     "category": null
   },
   {
-    "name": "Abyssal dagger (bh)(p)",
-    "id": 27863,
-    "image": "Abyssal_dagger_(bh)(p).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Abyssal dagger (bh)(p+)",
-    "id": 27865,
-    "image": "Abyssal_dagger_(bh)(p+).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Abyssal dagger (bh)(p++)",
-    "id": 27867,
-    "image": "Abyssal_dagger_(bh)(p++).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Abyssal dagger (bh)",
-    "id": 27861,
-    "image": "Abyssal_dagger_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Abyssal dagger imbue scroll",
     "id": 28080,
     "image": "Abyssal_dagger_imbue_scroll.png",
@@ -864,13 +822,6 @@
     "name": "Abyssal whip",
     "id": 4151,
     "image": "Abyssal_whip.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Abyssal whip",
-    "id": 20405,
-    "image": "Abyssal_whip_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -1222,20 +1173,6 @@
     "id": 810,
     "image": "Adamant_dart.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Adamant defender (broken)",
-    "id": 20459,
-    "image": "Adamant_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Adamant defender (l)",
-    "id": 24141,
-    "image": "Adamant_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -2345,13 +2282,6 @@
     "category": null
   },
   {
-    "name": "Ahrim's robeskirt",
-    "id": 20599,
-    "image": "Ahrim's_robeskirt_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Ahrim's robeskirt 0",
     "id": 4878,
     "image": "Ahrim's_robeskirt_0.png",
@@ -2394,13 +2324,6 @@
     "category": null
   },
   {
-    "name": "Ahrim's robetop",
-    "id": 20598,
-    "image": "Ahrim's_robetop_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Ahrim's robetop 0",
     "id": 4872,
     "image": "Ahrim's_robetop_0.png",
@@ -2440,13 +2363,6 @@
     "id": 4712,
     "image": "Ahrim's_robetop.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff",
-    "id": 23653,
-    "image": "Ahrim's_staff_(Last_Man_Standing).png",
-    "slot": "weapon",
     "category": null
   },
   {
@@ -2523,27 +2439,6 @@
     "name": "Air rune",
     "id": 556,
     "image": "Air_rune.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Air rune",
-    "id": 11688,
-    "image": "Air_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Air rune (nz)",
-    "id": 11715,
-    "image": "Air_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Air rune",
-    "id": 9693,
-    "image": "Air_rune_(The_Slug_Menace).png",
     "slot": "",
     "category": null
   },
@@ -3017,23 +2912,9 @@
     "category": null
   },
   {
-    "name": "Amulet of fury",
-    "id": 23640,
-    "image": "Amulet_of_fury_(Last_Man_Standing).png",
-    "slot": "neck",
-    "category": null
-  },
-  {
     "name": "Amulet of fury (or)",
     "id": 12436,
     "image": "Amulet_of_fury_(or).png",
-    "slot": "neck",
-    "category": null
-  },
-  {
-    "name": "Amulet of glory",
-    "id": 20586,
-    "image": "Amulet_of_glory_(Last_Man_Standing).png",
     "slot": "neck",
     "category": null
   },
@@ -3251,13 +3132,6 @@
     "name": "Amulet of torture",
     "id": 19553,
     "image": "Amulet_of_torture.png",
-    "slot": "neck",
-    "category": null
-  },
-  {
-    "name": "Amulet of torture",
-    "id": 27173,
-    "image": "Amulet_of_torture_(Last_Man_Standing).png",
     "slot": "neck",
     "category": null
   },
@@ -3619,31 +3493,10 @@
     "category": null
   },
   {
-    "name": "Ancient godsword",
-    "id": 27184,
-    "image": "Ancient_godsword_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Ancient gorilla greegree",
     "id": 4028,
     "image": "Ancient_gorilla_greegree.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ancient halo (broken)",
-    "id": 24153,
-    "image": "Ancient_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ancient halo (l)",
-    "id": 24203,
-    "image": "Ancient_halo.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -3878,13 +3731,6 @@
     "category": null
   },
   {
-    "name": "Ancient sceptre (l)",
-    "id": 27626,
-    "image": "Ancient_sceptre.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Ancient sceptre",
     "id": 27624,
     "image": "Ancient_sceptre.png",
@@ -3909,13 +3755,6 @@
     "name": "Ancient staff",
     "id": 4675,
     "image": "Ancient_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ancient staff",
-    "id": 20431,
-    "image": "Ancient_staff_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -4259,13 +4098,6 @@
     "name": "Anti-dragon shield",
     "id": 1540,
     "image": "Anti-dragon_shield.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Anti-dragon shield (nz)",
-    "id": 11710,
-    "image": "Anti-dragon_shield_(nz).png",
     "slot": "shield",
     "category": null
   },
@@ -5579,13 +5411,6 @@
     "category": null
   },
   {
-    "name": "Armadyl crossbow",
-    "id": 23611,
-    "image": "Armadyl_crossbow_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Armadyl crozier",
     "id": 12263,
     "image": "Armadyl_crozier.png",
@@ -5642,13 +5467,6 @@
     "category": null
   },
   {
-    "name": "Armadyl godsword",
-    "id": 20593,
-    "image": "Armadyl_godsword_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Armadyl godsword (or)",
     "id": 20368,
     "image": "Armadyl_godsword_(or).png",
@@ -5667,20 +5485,6 @@
     "id": 20068,
     "image": "Armadyl_godsword_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Armadyl halo (broken)",
-    "id": 24147,
-    "image": "Armadyl_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Armadyl halo (l)",
-    "id": 24194,
-    "image": "Armadyl_halo.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -6090,20 +5894,6 @@
     "category": null
   },
   {
-    "name": "Assembler max cape (broken)",
-    "id": 21916,
-    "image": "Assembler_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Assembler max cape (l)",
-    "id": 24135,
-    "image": "Assembler_max_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Assembler max cape",
     "id": 21898,
     "image": "Assembler_max_cape.png",
@@ -6163,13 +5953,6 @@
     "name": "Atlatl dart",
     "id": 28991,
     "image": "Atlatl_dart_5.png",
-    "slot": "ammo",
-    "category": null
-  },
-  {
-    "name": "Atlatl dart",
-    "id": 29852,
-    "image": "Atlatl_dart_(Last_Man_Standing).png",
     "slot": "ammo",
     "category": null
   },
@@ -6321,20 +6104,6 @@
     "category": null
   },
   {
-    "name": "Ava's assembler (broken)",
-    "id": 21914,
-    "image": "Ava's_assembler_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Ava's assembler (l)",
-    "id": 24222,
-    "image": "Ava's_assembler.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Ava's assembler",
     "id": 22109,
     "image": "Ava's_assembler.png",
@@ -6374,20 +6143,6 @@
     "id": 22477,
     "image": "Avernic_defender_hilt.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Avernic defender (broken)",
-    "id": 22441,
-    "image": "Avernic_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Avernic defender (l)",
-    "id": 24186,
-    "image": "Avernic_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -7182,20 +6937,6 @@
     "category": null
   },
   {
-    "name": "Bandos halo (broken)",
-    "id": 24149,
-    "image": "Bandos_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Bandos halo (l)",
-    "id": 24197,
-    "image": "Bandos_halo.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Bandos halo",
     "id": 24195,
     "image": "Bandos_halo.png",
@@ -7672,13 +7413,6 @@
     "category": null
   },
   {
-    "name": "Barrelchest anchor (bh)",
-    "id": 27855,
-    "image": "Barrelchest_anchor_(bh).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Barrelchest anchor imbue scroll",
     "id": 28074,
     "image": "Barrelchest_anchor_imbue_scroll.png",
@@ -7756,20 +7490,6 @@
     "category": null
   },
   {
-    "name": "Barronite mace (broken)",
-    "id": 25625,
-    "image": "Barronite_mace_(broken).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Barronite mace (l)",
-    "id": 25643,
-    "image": "Barronite_mace_(l).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Barronite mace",
     "id": 25641,
     "image": "Barronite_mace.png",
@@ -7787,13 +7507,6 @@
     "name": "Barrows gloves",
     "id": 7462,
     "image": "Barrows_gloves.png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Barrows gloves",
-    "id": 23593,
-    "image": "Barrows_gloves_(Last_Man_Standing).png",
     "slot": "hands",
     "category": null
   },
@@ -8512,13 +8225,6 @@
     "category": null
   },
   {
-    "name": "Berserker helm",
-    "id": 27169,
-    "image": "Berserker_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Berserker icon",
     "id": 28295,
     "image": "Berserker_icon.png",
@@ -8557,13 +8263,6 @@
     "name": "Berserker ring (i)",
     "id": 26770,
     "image": "Berserker_ring_(i).png",
-    "slot": "ring",
-    "category": null
-  },
-  {
-    "name": "Berserker ring",
-    "id": 23595,
-    "image": "Berserker_ring_(Last_Man_Standing).png",
     "slot": "ring",
     "category": null
   },
@@ -9002,13 +8701,6 @@
     "category": null
   },
   {
-    "name": "Black d'hide body",
-    "id": 20423,
-    "image": "Black_d'hide_body_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Black d'hide body (t)",
     "id": 12385,
     "image": "Black_d'hide_body_(t).png",
@@ -9026,13 +8718,6 @@
     "name": "Black d'hide chaps (g)",
     "id": 12383,
     "image": "Black_d'hide_chaps_(g).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Black d'hide chaps",
-    "id": 20424,
-    "image": "Black_d'hide_chaps_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -9111,20 +8796,6 @@
     "id": 3093,
     "image": "Black_dart.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Black defender (broken)",
-    "id": 20455,
-    "image": "Black_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Black defender (l)",
-    "id": 24139,
-    "image": "Black_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -10360,20 +10031,6 @@
     "category": null
   },
   {
-    "name": "Blessed dizana's quiver (broken)",
-    "id": 28828,
-    "image": "Blessed_dizana's_quiver_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Blessed dizana's quiver (l)",
-    "id": 28957,
-    "image": "Blessed_dizana's_quiver_(l).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Blessed dizana's quiver",
     "id": 28955,
     "image": "Blessed_dizana's_quiver.png",
@@ -10489,13 +10146,6 @@
     "name": "Blessed spirit shield",
     "id": 12831,
     "image": "Blessed_spirit_shield.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Blessed spirit shield",
-    "id": 23642,
-    "image": "Blessed_spirit_shield_(Last_Man_Standing).png",
     "slot": "shield",
     "category": null
   },
@@ -10696,20 +10346,6 @@
     "category": null
   },
   {
-    "name": "Blood ancient sceptre (broken)",
-    "id": 28238,
-    "image": "Blood_ancient_sceptre_(broken).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Blood ancient sceptre (l)",
-    "id": 28473,
-    "image": "Blood_ancient_sceptre.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Blood ancient sceptre",
     "id": 28260,
     "image": "Blood_ancient_sceptre.png",
@@ -10753,20 +10389,6 @@
   },
   {
     "name": "Blood moon chestplate",
-    "id": 29846,
-    "image": "Blood_moon_chestplate_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Blood moon chestplate (broken)",
-    "id": 29067,
-    "image": "Blood_moon_chestplate_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Blood moon chestplate",
     "id": 29022,
     "image": "Blood_moon_chestplate.png",
     "slot": "body",
@@ -10781,20 +10403,6 @@
   },
   {
     "name": "Blood moon helm",
-    "id": 29848,
-    "image": "Blood_moon_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Blood moon helm (broken)",
-    "id": 29073,
-    "image": "Blood_moon_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Blood moon helm",
     "id": 29028,
     "image": "Blood_moon_helm.png",
     "slot": "head",
@@ -10805,20 +10413,6 @@
     "id": 29047,
     "image": "Blood_moon_helm_(used).png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Blood moon tassets",
-    "id": 29847,
-    "image": "Blood_moon_tassets_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Blood moon tassets (broken)",
-    "id": 29070,
-    "image": "Blood_moon_tassets_(broken).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -10867,20 +10461,6 @@
     "name": "Blood rune",
     "id": 565,
     "image": "Blood_rune.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Blood rune",
-    "id": 11697,
-    "image": "Blood_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Blood rune (nz)",
-    "id": 11714,
-    "image": "Blood_rune_(nz).png",
     "slot": "",
     "category": null
   },
@@ -11404,20 +10984,6 @@
   },
   {
     "name": "Blue moon chestplate",
-    "id": 29843,
-    "image": "Blue_moon_chestplate_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Blue moon chestplate (broken)",
-    "id": 29058,
-    "image": "Blue_moon_chestplate_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Blue moon chestplate",
     "id": 29013,
     "image": "Blue_moon_chestplate.png",
     "slot": "body",
@@ -11428,20 +10994,6 @@
     "id": 29037,
     "image": "Blue_moon_chestplate_(used).png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Blue moon helm",
-    "id": 29845,
-    "image": "Blue_moon_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Blue moon helm (broken)",
-    "id": 29064,
-    "image": "Blue_moon_helm_(broken).png",
-    "slot": "head",
     "category": null
   },
   {
@@ -11463,27 +11015,6 @@
     "id": 28988,
     "image": "Blue_moon_spear.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Blue moon spear",
-    "id": 29849,
-    "image": "Blue_moon_spear_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Blue moon tassets",
-    "id": 29844,
-    "image": "Blue_moon_tassets_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Blue moon tassets (broken)",
-    "id": 29061,
-    "image": "Blue_moon_tassets_(broken).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -13433,20 +12964,6 @@
     "category": null
   },
   {
-    "name": "Brassica halo (broken)",
-    "id": 24155,
-    "image": "Brassica_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Brassica halo (l)",
-    "id": 24206,
-    "image": "Brassica_halo.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Brassica halo",
     "id": 24204,
     "image": "Brassica_halo.png",
@@ -14039,20 +13556,6 @@
     "id": 806,
     "image": "Bronze_dart.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Bronze defender (broken)",
-    "id": 20449,
-    "image": "Bronze_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Bronze defender (l)",
-    "id": 24136,
-    "image": "Bronze_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -16149,38 +15652,10 @@
     "category": null
   },
   {
-    "name": "Calamity breeches (broken)",
-    "id": 26692,
-    "image": "Calamity_breeches_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Calamity breeches (l)",
-    "id": 26756,
-    "image": "Calamity_breeches_(l).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Calamity breeches",
     "id": 26755,
     "image": "Calamity_breeches.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Calamity chest (broken)",
-    "id": 26689,
-    "image": "Calamity_chest_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Calamity chest (l)",
-    "id": 26750,
-    "image": "Calamity_chest_(l).png",
-    "slot": "body",
     "category": null
   },
   {
@@ -17346,20 +16821,6 @@
     "category": null
   },
   {
-    "name": "Chaos rune",
-    "id": 11694,
-    "image": "Chaos_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Chaos rune (nz)",
-    "id": 11712,
-    "image": "Chaos_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Chaos rune pack",
     "id": 12738,
     "image": "Chaos_rune_pack.png",
@@ -18392,13 +17853,6 @@
     "name": "Climbing boots (g)",
     "id": 23413,
     "image": "Climbing_boots_(g).png",
-    "slot": "feet",
-    "category": null
-  },
-  {
-    "name": "Climbing boots",
-    "id": 20578,
-    "image": "Climbing_boots_(Last_Man_Standing).png",
     "slot": "feet",
     "category": null
   },
@@ -19754,13 +19208,6 @@
     "category": null
   },
   {
-    "name": "Cooked karambwan",
-    "id": 23533,
-    "image": "Cooked_karambwan_(Last_Man_Standing).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Cooked kyatt",
     "id": 29152,
     "image": "Cooked_kyatt.png",
@@ -20125,48 +19572,6 @@
     "category": null
   },
   {
-    "name": "Corrupted morrigan's coif (bh)",
-    "id": 27847,
-    "image": "Corrupted_morrigan's_coif_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Corrupted morrigan's coif (bh)(inactive)",
-    "id": 27980,
-    "image": "Corrupted_morrigan's_coif_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted morrigan's leather body (bh)",
-    "id": 27848,
-    "image": "Corrupted_morrigan's_leather_body_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Corrupted morrigan's leather body (bh)(inactive)",
-    "id": 27983,
-    "image": "Corrupted_morrigan's_leather_body_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted morrigan's leather chaps (bh)",
-    "id": 27849,
-    "image": "Corrupted_morrigan's_leather_chaps_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Corrupted morrigan's leather chaps (bh)(inactive)",
-    "id": 27986,
-    "image": "Corrupted_morrigan's_leather_chaps_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Corrupted orb",
     "id": 23833,
     "image": "Corrupted_orb.png",
@@ -20272,48 +19677,6 @@
     "category": null
   },
   {
-    "name": "Corrupted statius's full helm (bh)",
-    "id": 27844,
-    "image": "Corrupted_statius's_full_helm_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Corrupted statius's full helm (bh)(inactive)",
-    "id": 27971,
-    "image": "Corrupted_statius's_full_helm_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted statius's platebody (bh)",
-    "id": 27845,
-    "image": "Corrupted_statius's_platebody_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Corrupted statius's platebody (bh)(inactive)",
-    "id": 27974,
-    "image": "Corrupted_statius's_platebody_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted statius's platelegs (bh)",
-    "id": 27846,
-    "image": "Corrupted_statius's_platelegs_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Corrupted statius's platelegs (bh)(inactive)",
-    "id": 27977,
-    "image": "Corrupted_statius's_platelegs_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Corrupted teleport crystal",
     "id": 23858,
     "image": "Corrupted_teleport_crystal.png",
@@ -20342,34 +19705,6 @@
     "category": null
   },
   {
-    "name": "Corrupted vesta's chainbody (bh)",
-    "id": 27842,
-    "image": "Corrupted_vesta's_chainbody_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Corrupted vesta's chainbody (bh)(inactive)",
-    "id": 27965,
-    "image": "Corrupted_vesta's_chainbody_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted vesta's plateskirt (bh)",
-    "id": 27843,
-    "image": "Corrupted_vesta's_plateskirt_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Corrupted vesta's plateskirt (bh)(inactive)",
-    "id": 27968,
-    "image": "Corrupted_vesta's_plateskirt_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Corrupted voidwaker",
     "id": 28531,
     "image": "Corrupted_voidwaker.png",
@@ -20381,48 +19716,6 @@
     "id": 29602,
     "image": "Corrupted_volatile_nightmare_staff.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's hood (bh)",
-    "id": 27850,
-    "image": "Corrupted_zuriel's_hood_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's hood (bh)(inactive)",
-    "id": 27989,
-    "image": "Corrupted_zuriel's_hood_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's robe bottom (bh)",
-    "id": 27852,
-    "image": "Corrupted_zuriel's_robe_bottom_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's robe bottom (bh)(inactive)",
-    "id": 27995,
-    "image": "Corrupted_zuriel's_robe_bottom_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's robe top (bh)",
-    "id": 27851,
-    "image": "Corrupted_zuriel's_robe_top_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Corrupted zuriel's robe top (bh)(inactive)",
-    "id": 27992,
-    "image": "Corrupted_zuriel's_robe_top_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -25354,23 +24647,9 @@
     "category": null
   },
   {
-    "name": "Dark bow (bh)",
-    "id": 27853,
-    "image": "Dark_bow_(bh).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Dark bow (deadman)",
     "id": 29611,
     "image": "Dark_bow_(deadman).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dark bow",
-    "id": 20408,
-    "image": "Dark_bow_(Last_Man_Standing).png",
     "slot": "2h",
     "category": null
   },
@@ -25816,20 +25095,6 @@
     "category": null
   },
   {
-    "name": "Death rune",
-    "id": 11692,
-    "image": "Death_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Death rune (nz)",
-    "id": 11713,
-    "image": "Death_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Death talisman",
     "id": 1456,
     "image": "Death_talisman.png",
@@ -25886,20 +25151,6 @@
     "category": null
   },
   {
-    "name": "Decorative armour (broken)",
-    "id": 20485,
-    "image": "Decorative_armour_(broken)_(gold_platebody).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24158,
-    "image": "Decorative_armour_(gold_platebody).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Decorative armour",
     "id": 4509,
     "image": "Decorative_armour_(gold_platebody).png",
@@ -25907,37 +25158,9 @@
     "category": null
   },
   {
-    "name": "Decorative armour (broken)",
-    "id": 20487,
-    "image": "Decorative_armour_(broken)_(gold_platelegs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24159,
-    "image": "Decorative_armour_(gold_platelegs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Decorative armour",
     "id": 4510,
     "image": "Decorative_armour_(gold_platelegs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (broken)",
-    "id": 20493,
-    "image": "Decorative_armour_(broken)_(gold_plateskirt).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24162,
-    "image": "Decorative_armour_(gold_plateskirt).png",
     "slot": "legs",
     "category": null
   },
@@ -25949,38 +25172,10 @@
     "category": null
   },
   {
-    "name": "Decorative armour (broken)",
-    "id": 20499,
-    "image": "Decorative_armour_(broken)_(magic_hat).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24165,
-    "image": "Decorative_armour_(magic_hat).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Decorative armour",
     "id": 11898,
     "image": "Decorative_armour_(magic_hat).png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (broken)",
-    "id": 20497,
-    "image": "Decorative_armour_(broken)_(magic_legs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24164,
-    "image": "Decorative_armour_(magic_legs).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -25991,38 +25186,10 @@
     "category": null
   },
   {
-    "name": "Decorative armour (broken)",
-    "id": 20495,
-    "image": "Decorative_armour_(broken)_(magic_top).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24163,
-    "image": "Decorative_armour_(magic_top).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Decorative armour",
     "id": 11896,
     "image": "Decorative_armour_(magic_top).png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (broken)",
-    "id": 20505,
-    "image": "Decorative_armour_(broken)_(quiver).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24168,
-    "image": "Decorative_armour_(quiver).png",
-    "slot": "cape",
     "category": null
   },
   {
@@ -26033,38 +25200,10 @@
     "category": null
   },
   {
-    "name": "Decorative armour (broken)",
-    "id": 20503,
-    "image": "Decorative_armour_(broken)_(ranged_legs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24167,
-    "image": "Decorative_armour_(ranged_legs).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Decorative armour",
     "id": 11900,
     "image": "Decorative_armour_(ranged_legs).png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (broken)",
-    "id": 20501,
-    "image": "Decorative_armour_(broken)_(ranged_top).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Decorative armour (l)",
-    "id": 24166,
-    "image": "Decorative_armour_(ranged_top).png",
-    "slot": "body",
     "category": null
   },
   {
@@ -26117,20 +25256,6 @@
     "category": null
   },
   {
-    "name": "Decorative boots (broken)",
-    "id": 25155,
-    "image": "Decorative_boots_(broken)_(gold).png",
-    "slot": "feet",
-    "category": null
-  },
-  {
-    "name": "Decorative boots (l)",
-    "id": 25173,
-    "image": "Decorative_boots_(l)_(gold).png",
-    "slot": "feet",
-    "category": null
-  },
-  {
     "name": "Decorative boots",
     "id": 25171,
     "image": "Decorative_boots_(gold).png",
@@ -26159,20 +25284,6 @@
     "category": null
   },
   {
-    "name": "Decorative full helm (broken)",
-    "id": 25157,
-    "image": "Decorative_full_helm_(broken)_(gold).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Decorative full helm (l)",
-    "id": 25176,
-    "image": "Decorative_full_helm_(l)_(gold).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Decorative full helm",
     "id": 25174,
     "image": "Decorative_full_helm_(gold).png",
@@ -26190,20 +25301,6 @@
     "name": "Decorative full helm",
     "id": 25169,
     "image": "Decorative_full_helm_(white).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Decorative helm (broken)",
-    "id": 20489,
-    "image": "Decorative_helm_(broken)_(gold).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Decorative helm (l)",
-    "id": 24160,
-    "image": "Decorative_helm_(gold).png",
     "slot": "head",
     "category": null
   },
@@ -26229,20 +25326,6 @@
     "category": null
   },
   {
-    "name": "Decorative shield (broken)",
-    "id": 20491,
-    "image": "Decorative_shield_(broken)_(gold).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Decorative shield (l)",
-    "id": 24161,
-    "image": "Decorative_shield_(gold).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Decorative shield",
     "id": 4512,
     "image": "Decorative_shield_(gold).png",
@@ -26261,20 +25344,6 @@
     "id": 4507,
     "image": "Decorative_shield_(white).png",
     "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Decorative sword (broken)",
-    "id": 20483,
-    "image": "Decorative_sword_(broken)_(gold).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Decorative sword (l)",
-    "id": 24157,
-    "image": "Decorative_sword_(gold).png",
-    "slot": "weapon",
     "category": null
   },
   {
@@ -26684,13 +25753,6 @@
     "category": null
   },
   {
-    "name": "Dharok's greataxe",
-    "id": 25516,
-    "image": "Dharok's_greataxe_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Dharok's greataxe 0",
     "id": 4890,
     "image": "Dharok's_greataxe_0.png",
@@ -26730,13 +25792,6 @@
     "id": 4718,
     "image": "Dharok's_greataxe.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm",
-    "id": 23639,
-    "image": "Dharok's_helm_(Last_Man_Standing).png",
-    "slot": "head",
     "category": null
   },
   {
@@ -26782,13 +25837,6 @@
     "category": null
   },
   {
-    "name": "Dharok's platebody",
-    "id": 25515,
-    "image": "Dharok's_platebody_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Dharok's platebody 0",
     "id": 4896,
     "image": "Dharok's_platebody_0.png",
@@ -26828,13 +25876,6 @@
     "id": 4720,
     "image": "Dharok's_platebody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs",
-    "id": 23633,
-    "image": "Dharok's_platelegs_(Last_Man_Standing).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -27265,13 +26306,6 @@
     "category": null
   },
   {
-    "name": "Divine rune pouch (l)",
-    "id": 27509,
-    "image": "Divine_rune_pouch.png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Divine rune pouch",
     "id": 27281,
     "image": "Divine_rune_pouch.png",
@@ -27398,20 +26432,6 @@
     "category": null
   },
   {
-    "name": "Dizana's max cape (broken)",
-    "id": 28830,
-    "image": "Dizana's_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Dizana's max cape (l)",
-    "id": 28906,
-    "image": "Dizana's_max_cape_(l).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Dizana's max cape",
     "id": 28902,
     "image": "Dizana's_max_cape.png",
@@ -27426,13 +26446,6 @@
     "category": null
   },
   {
-    "name": "Dizana's quiver (broken)",
-    "id": 28826,
-    "image": "Dizana's_quiver_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Dizana's quiver",
     "id": 28951,
     "image": "Dizana's_quiver.png",
@@ -27440,23 +26453,9 @@
     "category": null
   },
   {
-    "name": "Dizana's quiver (l)",
-    "id": 28953,
-    "image": "Dizana's_quiver_(l).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Dizana's quiver (uncharged)",
     "id": 28947,
     "image": "Dizana's_quiver_(uncharged).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Dizana's quiver (uncharged) (l)",
-    "id": 28949,
-    "image": "Dizana's_quiver_(uncharged)_(l).png",
     "slot": "cape",
     "category": null
   },
@@ -27930,13 +26929,6 @@
     "category": null
   },
   {
-    "name": "Dragon arrow",
-    "id": 20389,
-    "image": "Dragon_arrow_(Last_Man_Standing)_5.png",
-    "slot": "ammo",
-    "category": null
-  },
-  {
     "name": "Dragon arrow(p)",
     "id": 11227,
     "image": "Dragon_arrow(p)_5.png",
@@ -28252,13 +27244,6 @@
     "category": null
   },
   {
-    "name": "Dragon claws",
-    "id": 20784,
-    "image": "Dragon_claws_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Dragon claws (or)",
     "id": 26708,
     "image": "Dragon_claws_(or).png",
@@ -28318,13 +27303,6 @@
     "name": "Dragon dagger (cr)",
     "id": 28019,
     "image": "Dragon_dagger_(cr).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Dragon dagger",
-    "id": 20407,
-    "image": "Dragon_dagger_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -28392,20 +27370,6 @@
     "category": null
   },
   {
-    "name": "Dragon defender",
-    "id": 23597,
-    "image": "Dragon_defender_(Last_Man_Standing).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Dragon defender (l)(t)",
-    "id": 27008,
-    "image": "Dragon_defender_(t).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Dragon defender (t)",
     "id": 19722,
     "image": "Dragon_defender_(t).png",
@@ -28417,20 +27381,6 @@
     "id": 20143,
     "image": "Dragon_defender_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Dragon defender (broken)",
-    "id": 20463,
-    "image": "Dragon_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Dragon defender (l)",
-    "id": 24143,
-    "image": "Dragon_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -28630,13 +27580,6 @@
     "category": null
   },
   {
-    "name": "Dragon javelin",
-    "id": 23648,
-    "image": "Dragon_javelin_(Last_Man_Standing).png",
-    "slot": "ammo",
-    "category": null
-  },
-  {
     "name": "Dragon javelin tips",
     "id": 19582,
     "image": "Dragon_javelin_tips_5.png",
@@ -28756,13 +27699,6 @@
     "category": null
   },
   {
-    "name": "Dragon knife",
-    "id": 27157,
-    "image": "Dragon_knife_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Dragon knife(p)",
     "id": 22806,
     "image": "Dragon_knife(p).png",
@@ -28812,13 +27748,6 @@
     "category": null
   },
   {
-    "name": "Dragon longsword (bh)",
-    "id": 27859,
-    "image": "Dragon_longsword_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Dragon longsword (cr)",
     "id": 28033,
     "image": "Dragon_longsword_(cr).png",
@@ -28836,13 +27765,6 @@
     "name": "Dragon mace",
     "id": 1434,
     "image": "Dragon_mace.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Dragon mace (bh)",
-    "id": 27857,
-    "image": "Dragon_mace_(bh).png",
     "slot": "weapon",
     "category": null
   },
@@ -28921,13 +27843,6 @@
     "id": 11920,
     "image": "Dragon_pickaxe.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Dragon pickaxe (broken)",
-    "id": 27695,
-    "image": "Dragon_pickaxe_(broken).png",
-    "slot": "",
     "category": null
   },
   {
@@ -29053,13 +27968,6 @@
     "name": "Dragon scimitar (cr)",
     "id": 28031,
     "image": "Dragon_scimitar_(cr).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Dragon scimitar",
-    "id": 20406,
-    "image": "Dragon_scimitar_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -29638,13 +28546,6 @@
     "category": null
   },
   {
-    "name": "Dual macuahuitl",
-    "id": 29850,
-    "image": "Dual_macuahuitl_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Dual sai",
     "id": 23206,
     "image": "Dual_sai.png",
@@ -30033,27 +28934,6 @@
     "name": "Earth rune",
     "id": 557,
     "image": "Earth_rune.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Earth rune",
-    "id": 11689,
-    "image": "Earth_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Earth rune (nz)",
-    "id": 11717,
-    "image": "Earth_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Earth rune",
-    "id": 9695,
-    "image": "Earth_rune_(The_Slug_Menace).png",
     "slot": "",
     "category": null
   },
@@ -30457,31 +29337,10 @@
     "category": null
   },
   {
-    "name": "Eclipse atlatl",
-    "id": 29851,
-    "image": "Eclipse_atlatl_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Eclipse moon armour set",
     "id": 31142,
     "image": "Eclipse_moon_armour_set.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon chestplate",
-    "id": 29840,
-    "image": "Eclipse_moon_chestplate_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon chestplate (broken)",
-    "id": 29049,
-    "image": "Eclipse_moon_chestplate_(broken).png",
-    "slot": "body",
     "category": null
   },
   {
@@ -30500,20 +29359,6 @@
   },
   {
     "name": "Eclipse moon helm",
-    "id": 29842,
-    "image": "Eclipse_moon_helm_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon helm (broken)",
-    "id": 29055,
-    "image": "Eclipse_moon_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon helm",
     "id": 29010,
     "image": "Eclipse_moon_helm.png",
     "slot": "head",
@@ -30524,20 +29369,6 @@
     "id": 29035,
     "image": "Eclipse_moon_helm_(used).png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon tassets",
-    "id": 29841,
-    "image": "Eclipse_moon_tassets_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Eclipse moon tassets (broken)",
-    "id": 29052,
-    "image": "Eclipse_moon_tassets_(broken).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -30842,13 +29673,6 @@
     "category": null
   },
   {
-    "name": "Elder chaos hood",
-    "id": 27176,
-    "image": "Elder_chaos_hood_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Elder chaos hood (or)",
     "id": 27119,
     "image": "Elder_chaos_hood_(or).png",
@@ -30859,13 +29683,6 @@
     "name": "Elder chaos robe",
     "id": 20520,
     "image": "Elder_chaos_robe.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Elder chaos robe",
-    "id": 27175,
-    "image": "Elder_chaos_robe_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -30891,13 +29708,6 @@
     "category": null
   },
   {
-    "name": "Elder chaos top",
-    "id": 27174,
-    "image": "Elder_chaos_top_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Elder chaos top (or)",
     "id": 27115,
     "image": "Elder_chaos_top_(or).png",
@@ -30908,13 +29718,6 @@
     "name": "Elder maul",
     "id": 21003,
     "image": "Elder_maul.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Elder maul",
-    "id": 21205,
-    "image": "Elder_maul_(Last_Man_Standing).png",
     "slot": "2h",
     "category": null
   },
@@ -31101,38 +29904,10 @@
     "category": null
   },
   {
-    "name": "Elite calamity breeches (broken)",
-    "id": 26694,
-    "image": "Elite_calamity_breeches_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Elite calamity breeches (l)",
-    "id": 26760,
-    "image": "Elite_calamity_breeches_(l).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Elite calamity breeches",
     "id": 26759,
     "image": "Elite_calamity_breeches.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Elite calamity chest (broken)",
-    "id": 26691,
-    "image": "Elite_calamity_chest_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Elite calamity chest (l)",
-    "id": 26754,
-    "image": "Elite_calamity_chest_(l).png",
-    "slot": "body",
     "category": null
   },
   {
@@ -31143,30 +29918,9 @@
     "category": null
   },
   {
-    "name": "Elite void robe (l)(or)",
-    "id": 27004,
-    "image": "Elite_void_robe_(or).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Elite void robe (or)",
     "id": 26471,
     "image": "Elite_void_robe_(or).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Elite void robe (broken)",
-    "id": 20471,
-    "image": "Elite_void_robe_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Elite void robe (l)",
-    "id": 24180,
-    "image": "Elite_void_robe.png",
     "slot": "legs",
     "category": null
   },
@@ -31178,30 +29932,9 @@
     "category": null
   },
   {
-    "name": "Elite void top (l)(or)",
-    "id": 27003,
-    "image": "Elite_void_top_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Elite void top (or)",
     "id": 26469,
     "image": "Elite_void_top_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Elite void top (broken)",
-    "id": 20467,
-    "image": "Elite_void_top_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Elite void top (l)",
-    "id": 24178,
-    "image": "Elite_void_top.png",
     "slot": "body",
     "category": null
   },
@@ -33285,20 +32018,6 @@
     "category": null
   },
   {
-    "name": "Fighter hat (broken)",
-    "id": 20507,
-    "image": "Fighter_hat_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Fighter hat (l)",
-    "id": 24173,
-    "image": "Fighter_hat.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Fighter hat",
     "id": 10548,
     "image": "Fighter_hat.png",
@@ -33306,30 +32025,9 @@
     "category": null
   },
   {
-    "name": "Fighter torso (l)(or)",
-    "id": 28069,
-    "image": "Fighter_torso_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Fighter torso (or)",
     "id": 28067,
     "image": "Fighter_torso_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Fighter torso (broken)",
-    "id": 20513,
-    "image": "Fighter_torso_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Fighter torso (l)",
-    "id": 24175,
-    "image": "Fighter_torso.png",
     "slot": "body",
     "category": null
   },
@@ -33418,20 +32116,6 @@
     "category": null
   },
   {
-    "name": "Fire cape (broken)",
-    "id": 20445,
-    "image": "Fire_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Fire cape (l)",
-    "id": 24223,
-    "image": "Fire_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Fire cape",
     "id": 6570,
     "image": "Fire_cape.png",
@@ -33467,20 +32151,6 @@
     "category": null
   },
   {
-    "name": "Fire max cape (broken)",
-    "id": 20447,
-    "image": "Fire_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Fire max cape (l)",
-    "id": 24134,
-    "image": "Fire_max_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Fire max cape",
     "id": 13329,
     "image": "Fire_max_cape.png",
@@ -33512,27 +32182,6 @@
     "name": "Fire rune",
     "id": 554,
     "image": "Fire_rune.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Fire rune",
-    "id": 11686,
-    "image": "Fire_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Fire rune (nz)",
-    "id": 11718,
-    "image": "Fire_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Fire rune",
-    "id": 9699,
-    "image": "Fire_rune_(The_Slug_Menace).png",
     "slot": "",
     "category": null
   },
@@ -35280,23 +33929,9 @@
     "category": null
   },
   {
-    "name": "Ghommal's avernic defender 5 (l)",
-    "id": 27551,
-    "image": "Ghommal's_avernic_defender_5.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Ghommal's avernic defender 5",
     "id": 27550,
     "image": "Ghommal's_avernic_defender_5.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Ghommal's avernic defender 6 (l)",
-    "id": 27553,
-    "image": "Ghommal's_avernic_defender_6.png",
     "slot": "shield",
     "category": null
   },
@@ -35399,13 +34034,6 @@
     "category": null
   },
   {
-    "name": "Ghostly hood",
-    "id": 27166,
-    "image": "Ghostly_hood_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Ghostly robe",
     "id": 6108,
     "image": "Ghostly_robe_(bottom).png",
@@ -35414,22 +34042,8 @@
   },
   {
     "name": "Ghostly robe",
-    "id": 27168,
-    "image": "Ghostly_robe_(bottom)_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Ghostly robe",
     "id": 6107,
     "image": "Ghostly_robe_(top).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ghostly robe",
-    "id": 27167,
-    "image": "Ghostly_robe_(top)_(Last_Man_Standing).png",
     "slot": "body",
     "category": null
   },
@@ -37591,13 +36205,6 @@
   },
   {
     "name": "Granite maul",
-    "id": 20557,
-    "image": "Granite_maul_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Granite maul",
     "id": 24227,
     "image": "Granite_maul_(ornate_handle,_clamp).png",
     "slot": "2h",
@@ -39298,13 +37905,6 @@
     "category": null
   },
   {
-    "name": "Guthix chaps",
-    "id": 27180,
-    "image": "Guthix_chaps_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Guthix cloak",
     "id": 10448,
     "image": "Guthix_cloak.png",
@@ -39357,20 +37957,6 @@
     "name": "Guthix full helm",
     "id": 2673,
     "image": "Guthix_full_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthix halo (broken)",
-    "id": 20541,
-    "image": "Guthix_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthix halo (l)",
-    "id": 24171,
-    "image": "Guthix_halo.png",
     "slot": "head",
     "category": null
   },
@@ -40355,20 +38941,6 @@
     "category": null
   },
   {
-    "name": "Healer hat (broken)",
-    "id": 20511,
-    "image": "Healer_hat_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Healer hat (l)",
-    "id": 24172,
-    "image": "Healer_hat.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Healer hat",
     "id": 10547,
     "image": "Healer_hat.png",
@@ -40456,13 +39028,6 @@
     "name": "Heavy ballista",
     "id": 19481,
     "image": "Heavy_ballista.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Heavy ballista",
-    "id": 23630,
-    "image": "Heavy_ballista_(Last_Man_Standing).png",
     "slot": "2h",
     "category": null
   },
@@ -40561,13 +39126,6 @@
     "name": "Helm of neitiznot",
     "id": 10828,
     "image": "Helm_of_neitiznot.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Helm of neitiznot",
-    "id": 23591,
-    "image": "Helm_of_neitiznot_(Last_Man_Standing).png",
     "slot": "head",
     "category": null
   },
@@ -41643,20 +40201,6 @@
     "category": null
   },
   {
-    "name": "Ice ancient sceptre (broken)",
-    "id": 28242,
-    "image": "Ice_ancient_sceptre_(broken).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ice ancient sceptre (l)",
-    "id": 28474,
-    "image": "Ice_ancient_sceptre.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Ice ancient sceptre",
     "id": 28262,
     "image": "Ice_ancient_sceptre.png",
@@ -41924,43 +40468,8 @@
   },
   {
     "name": "Imbued guthix cape",
-    "id": 23603,
-    "image": "Imbued_guthix_cape_(Last_Man_Standing).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued guthix cape (broken)",
-    "id": 24240,
-    "image": "Imbued_guthix_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued guthix cape (l)",
-    "id": 24249,
-    "image": "Imbued_guthix_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued guthix cape",
     "id": 21793,
     "image": "Imbued_guthix_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued guthix max cape (broken)",
-    "id": 24242,
-    "image": "Imbued_guthix_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued guthix max cape (l)",
-    "id": 24234,
-    "image": "Imbued_guthix_max_cape.png",
     "slot": "cape",
     "category": null
   },
@@ -41994,43 +40503,8 @@
   },
   {
     "name": "Imbued saradomin cape",
-    "id": 23607,
-    "image": "Imbued_saradomin_cape_(Last_Man_Standing).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued saradomin cape (broken)",
-    "id": 24236,
-    "image": "Imbued_saradomin_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued saradomin cape (l)",
-    "id": 24248,
-    "image": "Imbued_saradomin_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued saradomin cape",
     "id": 21791,
     "image": "Imbued_saradomin_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued saradomin max cape (broken)",
-    "id": 24238,
-    "image": "Imbued_saradomin_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued saradomin max cape (l)",
-    "id": 24232,
-    "image": "Imbued_saradomin_max_cape.png",
     "slot": "cape",
     "category": null
   },
@@ -42064,43 +40538,8 @@
   },
   {
     "name": "Imbued zamorak cape",
-    "id": 23605,
-    "image": "Imbued_zamorak_cape_(Last_Man_Standing).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued zamorak cape (broken)",
-    "id": 24244,
-    "image": "Imbued_zamorak_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued zamorak cape (l)",
-    "id": 24250,
-    "image": "Imbued_zamorak_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued zamorak cape",
     "id": 21795,
     "image": "Imbued_zamorak_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued zamorak max cape (broken)",
-    "id": 24246,
-    "image": "Imbued_zamorak_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Imbued zamorak max cape (l)",
-    "id": 24233,
-    "image": "Imbued_zamorak_max_cape.png",
     "slot": "cape",
     "category": null
   },
@@ -42123,13 +40562,6 @@
     "id": 29775,
     "image": "Imcando_hammer_(off-hand).png",
     "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Imcando hammer (broken)",
-    "id": 25633,
-    "image": "Imcando_hammer_(broken).png",
-    "slot": "",
     "category": null
   },
   {
@@ -42344,27 +40776,6 @@
   },
   {
     "name": "Infernal cape",
-    "id": 23622,
-    "image": "Infernal_cape_(Last_Man_Standing).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Infernal cape (broken)",
-    "id": 21287,
-    "image": "Infernal_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Infernal cape (l)",
-    "id": 24224,
-    "image": "Infernal_cape.png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Infernal cape",
     "id": 21295,
     "image": "Infernal_cape.png",
     "slot": "cape",
@@ -42424,20 +40835,6 @@
     "id": 21033,
     "image": "Infernal_harpoon_(uncharged).png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Infernal max cape (broken)",
-    "id": 21289,
-    "image": "Infernal_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Infernal max cape (l)",
-    "id": 24133,
-    "image": "Infernal_max_cape.png",
-    "slot": "cape",
     "category": null
   },
   {
@@ -43022,20 +41419,6 @@
     "category": null
   },
   {
-    "name": "Iron defender (broken)",
-    "id": 20451,
-    "image": "Iron_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Iron defender (l)",
-    "id": 24137,
-    "image": "Iron_defender.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Iron defender",
     "id": 8845,
     "image": "Iron_defender.png",
@@ -43326,13 +41709,6 @@
     "name": "Iron pickaxe",
     "id": 1267,
     "image": "Iron_pickaxe.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Iron pickaxe (nz)",
-    "id": 11721,
-    "image": "Iron_pickaxe_(nz).png",
     "slot": "weapon",
     "category": null
   },
@@ -44597,13 +42973,6 @@
     "category": null
   },
   {
-    "name": "Karil's leathertop",
-    "id": 23632,
-    "image": "Karil's_leathertop_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Karil's leathertop 0",
     "id": 4944,
     "image": "Karil's_leathertop_0.png",
@@ -45360,31 +43729,10 @@
     "category": null
   },
   {
-    "name": "Kodai wand",
-    "id": 23626,
-    "image": "Kodai_wand_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Korbal herb",
     "id": 28384,
     "image": "Korbal_herb.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Koriff's coif (broken)",
-    "id": 26700,
-    "image": "Koriff's_coif_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Koriff's coif (l)",
-    "id": 26742,
-    "image": "Koriff's_coif_(l).png",
-    "slot": "head",
     "category": null
   },
   {
@@ -45395,37 +43743,9 @@
     "category": null
   },
   {
-    "name": "Koriff's cowl (broken)",
-    "id": 26699,
-    "image": "Koriff's_cowl_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Koriff's cowl (l)",
-    "id": 26740,
-    "image": "Koriff's_cowl_(l).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Koriff's cowl",
     "id": 26739,
     "image": "Koriff's_cowl.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Koriff's headband (broken)",
-    "id": 26698,
-    "image": "Koriff's_headband_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Koriff's headband (l)",
-    "id": 26738,
-    "image": "Koriff's_headband_(l).png",
     "slot": "head",
     "category": null
   },
@@ -46585,13 +44905,6 @@
     "category": null
   },
   {
-    "name": "Light ballista",
-    "id": 27188,
-    "image": "Light_ballista_(Last_Man_Standing).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Light bow tie",
     "id": 19985,
     "image": "Light_bow_tie.png",
@@ -46686,13 +44999,6 @@
     "name": "Lightbearer",
     "id": 25975,
     "image": "Lightbearer.png",
-    "slot": "ring",
-    "category": null
-  },
-  {
-    "name": "Lightbearer",
-    "id": 27870,
-    "image": "Lightbearer_(Last_Man_Standing).png",
     "slot": "ring",
     "category": null
   },
@@ -47649,13 +45955,6 @@
     "category": null
   },
   {
-    "name": "Mage's book",
-    "id": 23652,
-    "image": "Mage's_book_(Last_Man_Standing).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Magenta crystal",
     "id": 23781,
     "image": "Magenta_crystal_(Song_of_the_Elves).png",
@@ -47960,13 +46259,6 @@
     "name": "Magic secateurs",
     "id": 7409,
     "image": "Magic_secateurs.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Magic secateurs (nz)",
-    "id": 11711,
-    "image": "Magic_secateurs_(nz).png",
     "slot": "weapon",
     "category": null
   },
@@ -48545,20 +46837,6 @@
     "category": null
   },
   {
-    "name": "Maoma's full helm (broken)",
-    "id": 26687,
-    "image": "Maoma's_full_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Maoma's full helm (l)",
-    "id": 26746,
-    "image": "Maoma's_full_helm_(l).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Maoma's full helm",
     "id": 26745,
     "image": "Maoma's_full_helm.png",
@@ -48566,37 +46844,9 @@
     "category": null
   },
   {
-    "name": "Maoma's great helm (broken)",
-    "id": 26688,
-    "image": "Maoma's_great_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Maoma's great helm (l)",
-    "id": 26748,
-    "image": "Maoma's_great_helm_(l).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Maoma's great helm",
     "id": 26747,
     "image": "Maoma's_great_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Maoma's med helm (broken)",
-    "id": 26686,
-    "image": "Maoma's_med_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Maoma's med helm (l)",
-    "id": 26744,
-    "image": "Maoma's_med_helm_(l).png",
     "slot": "head",
     "category": null
   },
@@ -49119,20 +47369,6 @@
     "category": null
   },
   {
-    "name": "Masori assembler max cape (broken)",
-    "id": 27361,
-    "image": "Masori_assembler_max_cape_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Masori assembler max cape (l)",
-    "id": 27365,
-    "image": "Masori_assembler_max_cape_(l).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
     "name": "Masori assembler max cape",
     "id": 27363,
     "image": "Masori_assembler_max_cape.png",
@@ -49144,20 +47380,6 @@
     "id": 27366,
     "image": "Masori_assembler_max_hood.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Masori assembler (broken)",
-    "id": 27359,
-    "image": "Masori_assembler_(broken).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Masori assembler (l)",
-    "id": 27376,
-    "image": "Masori_assembler_(l).png",
-    "slot": "cape",
     "category": null
   },
   {
@@ -49952,20 +48174,6 @@
     "category": null
   },
   {
-    "name": "Mind rune",
-    "id": 11690,
-    "image": "Mind_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Mind rune",
-    "id": 9697,
-    "image": "Mind_rune_(The_Slug_Menace).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Mind rune pack",
     "id": 12736,
     "image": "Mind_rune_pack.png",
@@ -50456,20 +48664,6 @@
     "category": null
   },
   {
-    "name": "Mithril defender (broken)",
-    "id": 20457,
-    "image": "Mithril_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Mithril defender (l)",
-    "id": 24140,
-    "image": "Mithril_defender.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Mithril defender",
     "id": 8848,
     "image": "Mithril_defender.png",
@@ -50529,13 +48723,6 @@
     "name": "Mithril gloves",
     "id": 7458,
     "image": "Mithril_gloves.png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Mithril gloves",
-    "id": 20581,
-    "image": "Mithril_gloves_(Last_Man_Standing).png",
     "slot": "hands",
     "category": null
   },
@@ -50757,13 +48944,6 @@
     "category": null
   },
   {
-    "name": "Mithril pickaxe (nz)",
-    "id": 11720,
-    "image": "Mithril_pickaxe_(nz).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Mithril platebody",
     "id": 1121,
     "image": "Mithril_platebody.png",
@@ -50837,13 +49017,6 @@
     "name": "Mithril seeds",
     "id": 299,
     "image": "Mithril_seeds.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Mithril seeds",
-    "id": 24534,
-    "image": "Mithril_seeds_(Last_Man_Standing).png",
     "slot": "",
     "category": null
   },
@@ -51674,38 +49847,10 @@
     "category": null
   },
   {
-    "name": "Morrigan's coif (bh)",
-    "id": 27836,
-    "image": "Morrigan's_coif_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Morrigan's coif (bh)(inactive)",
-    "id": 27940,
-    "image": "Morrigan's_coif_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Morrigan's coif",
     "id": 22638,
     "image": "Morrigan's_coif.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Morrigan's javelin (bh)",
-    "id": 27916,
-    "image": "Morrigan's_javelin_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Morrigan's javelin (bh)(inactive)",
-    "id": 27918,
-    "image": "Morrigan's_javelin_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -51716,27 +49861,6 @@
     "category": null
   },
   {
-    "name": "Morrigan's javelin",
-    "id": 23619,
-    "image": "Morrigan's_javelin_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Morrigan's leather body (bh)",
-    "id": 27837,
-    "image": "Morrigan's_leather_body_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Morrigan's leather body (bh)(inactive)",
-    "id": 27943,
-    "image": "Morrigan's_leather_body_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Morrigan's leather body",
     "id": 22641,
     "image": "Morrigan's_leather_body.png",
@@ -51744,38 +49868,10 @@
     "category": null
   },
   {
-    "name": "Morrigan's leather chaps (bh)",
-    "id": 27838,
-    "image": "Morrigan's_leather_chaps_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Morrigan's leather chaps (bh)(inactive)",
-    "id": 27946,
-    "image": "Morrigan's_leather_chaps_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Morrigan's leather chaps",
     "id": 22644,
     "image": "Morrigan's_leather_chaps.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Morrigan's throwing axe (bh)",
-    "id": 27912,
-    "image": "Morrigan's_throwing_axe_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Morrigan's throwing axe (bh)(inactive)",
-    "id": 27914,
-    "image": "Morrigan's_throwing_axe_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -52591,13 +50687,6 @@
     "category": null
   },
   {
-    "name": "Mystic robe bottom (dark)",
-    "id": 27159,
-    "image": "Mystic_robe_bottom_(dark)_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Mystic robe bottom (dusk)",
     "id": 23053,
     "image": "Mystic_robe_bottom_(dusk).png",
@@ -52605,23 +50694,9 @@
     "category": null
   },
   {
-    "name": "Mystic robe bottom",
-    "id": 20426,
-    "image": "Mystic_robe_bottom_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Mystic robe bottom (light)",
     "id": 4113,
     "image": "Mystic_robe_bottom_(light).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Mystic robe bottom (light)",
-    "id": 27161,
-    "image": "Mystic_robe_bottom_(light)_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -52647,13 +50722,6 @@
     "category": null
   },
   {
-    "name": "Mystic robe top (dark)",
-    "id": 27158,
-    "image": "Mystic_robe_top_(dark)_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Mystic robe top (dusk)",
     "id": 23050,
     "image": "Mystic_robe_top_(dusk).png",
@@ -52661,23 +50729,9 @@
     "category": null
   },
   {
-    "name": "Mystic robe top",
-    "id": 20425,
-    "image": "Mystic_robe_top_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Mystic robe top (light)",
     "id": 4111,
     "image": "Mystic_robe_top_(light).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Mystic robe top (light)",
-    "id": 27160,
-    "image": "Mystic_robe_top_(light)_(Last_Man_Standing).png",
     "slot": "body",
     "category": null
   },
@@ -52944,13 +50998,6 @@
     "name": "Necklace of anguish",
     "id": 19547,
     "image": "Necklace_of_anguish.png",
-    "slot": "neck",
-    "category": null
-  },
-  {
-    "name": "Necklace of anguish",
-    "id": 27172,
-    "image": "Necklace_of_anguish_(Last_Man_Standing).png",
     "slot": "neck",
     "category": null
   },
@@ -53917,13 +51964,6 @@
     "name": "Occult necklace",
     "id": 12002,
     "image": "Occult_necklace.png",
-    "slot": "neck",
-    "category": null
-  },
-  {
-    "name": "Occult necklace",
-    "id": 23654,
-    "image": "Occult_necklace_(Last_Man_Standing).png",
     "slot": "neck",
     "category": null
   },
@@ -56018,20 +54058,6 @@
     "id": 10553,
     "image": "Penance_gloves.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Penance skirt (broken)",
-    "id": 20515,
-    "image": "Penance_skirt_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Penance skirt (l)",
-    "id": 24176,
-    "image": "Penance_skirt.png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -59773,20 +57799,6 @@
     "category": null
   },
   {
-    "name": "Ranger hat (broken)",
-    "id": 20509,
-    "image": "Ranger_hat_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ranger hat (l)",
-    "id": 24174,
-    "image": "Ranger_hat.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Ranger hat",
     "id": 10550,
     "image": "Ranger_hat.png",
@@ -63168,13 +61180,6 @@
     "category": null
   },
   {
-    "name": "Rope",
-    "id": 20587,
-    "image": "Rope_(Last_Man_Standing).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Roqed fish (5)",
     "id": 20866,
     "image": "Roqed_fish_(5).png",
@@ -63847,13 +61852,6 @@
     "category": null
   },
   {
-    "name": "Rune crossbow",
-    "id": 23601,
-    "image": "Rune_crossbow_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Rune crossbow (or)",
     "id": 26486,
     "image": "Rune_crossbow_(or).png",
@@ -63931,13 +61929,6 @@
     "category": null
   },
   {
-    "name": "Rune defender (l)(t)",
-    "id": 27009,
-    "image": "Rune_defender_(t).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
     "name": "Rune defender (t)",
     "id": 23230,
     "image": "Rune_defender_(t).png",
@@ -63949,20 +61940,6 @@
     "id": 23227,
     "image": "Rune_defender_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Rune defender (broken)",
-    "id": 20461,
-    "image": "Rune_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Rune defender (l)",
-    "id": 24142,
-    "image": "Rune_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -64498,13 +62475,6 @@
     "category": null
   },
   {
-    "name": "Rune pickaxe (nz)",
-    "id": 11719,
-    "image": "Rune_pickaxe_(nz).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Rune platebody",
     "id": 1127,
     "image": "Rune_platebody.png",
@@ -64575,13 +62545,6 @@
     "category": null
   },
   {
-    "name": "Rune platelegs",
-    "id": 20422,
-    "image": "Rune_platelegs_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Rune platelegs (t)",
     "id": 2625,
     "image": "Rune_platelegs_(t).png",
@@ -64624,23 +62587,9 @@
     "category": null
   },
   {
-    "name": "Rune pouch",
-    "id": 23650,
-    "image": "Rune_pouch_(Last_Man_Standing).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Rune pouch note",
     "id": 24587,
     "image": "Rune_pouch_note.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Rune pouch (l)",
-    "id": 24416,
-    "image": "Rune_pouch.png",
     "slot": "",
     "category": null
   },
@@ -64960,20 +62909,6 @@
     "category": null
   },
   {
-    "name": "Runner hat (broken)",
-    "id": 24531,
-    "image": "Runner_hat_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Runner hat (l)",
-    "id": 24533,
-    "image": "Runner_hat.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Runner hat",
     "id": 10549,
     "image": "Runner_hat.png",
@@ -65121,20 +63056,6 @@
     "category": null
   },
   {
-    "name": "Saika's hood (broken)",
-    "id": 26701,
-    "image": "Saika's_hood_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Saika's hood (l)",
-    "id": 26732,
-    "image": "Saika's_hood_(l).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Saika's hood",
     "id": 26731,
     "image": "Saika's_hood.png",
@@ -65142,37 +63063,9 @@
     "category": null
   },
   {
-    "name": "Saika's shroud (broken)",
-    "id": 26703,
-    "image": "Saika's_shroud_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Saika's shroud (l)",
-    "id": 26736,
-    "image": "Saika's_shroud_(l).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Saika's shroud",
     "id": 26735,
     "image": "Saika's_shroud.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Saika's veil (broken)",
-    "id": 26702,
-    "image": "Saika's_veil_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Saika's veil (l)",
-    "id": 26734,
-    "image": "Saika's_veil_(l).png",
     "slot": "head",
     "category": null
   },
@@ -65835,13 +63728,6 @@
     "category": null
   },
   {
-    "name": "Saradomin chaps",
-    "id": 27182,
-    "image": "Saradomin_chaps_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Saradomin cloak",
     "id": 10446,
     "image": "Saradomin_cloak.png",
@@ -65923,20 +63809,6 @@
     "id": 20074,
     "image": "Saradomin_godsword_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Saradomin halo (broken)",
-    "id": 20537,
-    "image": "Saradomin_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Saradomin halo (l)",
-    "id": 24169,
-    "image": "Saradomin_halo.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -66424,13 +64296,6 @@
   },
   {
     "name": "Scroll",
-    "id": 10512,
-    "image": "Scroll_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Scroll",
     "id": 9721,
     "image": "Scroll_(Elemental_Workshop_II).png",
     "slot": "",
@@ -66878,20 +64743,6 @@
     "category": null
   },
   {
-    "name": "Seren halo (broken)",
-    "id": 24151,
-    "image": "Seren_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Seren halo (l)",
-    "id": 24200,
-    "image": "Seren_halo.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Seren halo",
     "id": 24198,
     "image": "Seren_halo.png",
@@ -67179,20 +65030,6 @@
     "category": null
   },
   {
-    "name": "Shadow ancient sceptre (broken)",
-    "id": 28244,
-    "image": "Shadow_ancient_sceptre_(broken).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Shadow ancient sceptre (l)",
-    "id": 28476,
-    "image": "Shadow_ancient_sceptre.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Shadow ancient sceptre",
     "id": 28266,
     "image": "Shadow_ancient_sceptre.png",
@@ -67322,13 +65159,6 @@
     "name": "Shark",
     "id": 385,
     "image": "Shark.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Shark",
-    "id": 20390,
-    "image": "Shark_(Last_Man_Standing).png",
     "slot": "",
     "category": null
   },
@@ -70770,20 +68600,6 @@
     "category": null
   },
   {
-    "name": "Smoke ancient sceptre (broken)",
-    "id": 28240,
-    "image": "Smoke_ancient_sceptre_(broken).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Smoke ancient sceptre (l)",
-    "id": 28475,
-    "image": "Smoke_ancient_sceptre.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Smoke ancient sceptre",
     "id": 28264,
     "image": "Smoke_ancient_sceptre.png",
@@ -71603,13 +69419,6 @@
     "category": null
   },
   {
-    "name": "Spikes",
-    "id": 10561,
-    "image": "Spikes_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Spiky vambraces",
     "id": 10077,
     "image": "Spiky_vambraces.png",
@@ -71774,13 +69583,6 @@
     "name": "Spirit shield",
     "id": 12829,
     "image": "Spirit_shield.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Spirit shield",
-    "id": 23599,
-    "image": "Spirit_shield_(Last_Man_Standing).png",
     "slot": "shield",
     "category": null
   },
@@ -72114,13 +69916,6 @@
     "category": null
   },
   {
-    "name": "Staff of the dead",
-    "id": 23613,
-    "image": "Staff_of_the_dead_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Staff of water",
     "id": 1383,
     "image": "Staff_of_water.png",
@@ -72254,38 +70049,10 @@
     "category": null
   },
   {
-    "name": "Statius's full helm (bh)",
-    "id": 27833,
-    "image": "Statius's_full_helm_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Statius's full helm (bh)(inactive)",
-    "id": 27931,
-    "image": "Statius's_full_helm_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Statius's full helm",
     "id": 22625,
     "image": "Statius's_full_helm.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Statius's platebody (bh)",
-    "id": 27834,
-    "image": "Statius's_platebody_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Statius's platebody (bh)(inactive)",
-    "id": 27934,
-    "image": "Statius's_platebody_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -72296,20 +70063,6 @@
     "category": null
   },
   {
-    "name": "Statius's platelegs (bh)",
-    "id": 27835,
-    "image": "Statius's_platelegs_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Statius's platelegs (bh)(inactive)",
-    "id": 27937,
-    "image": "Statius's_platelegs_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Statius's platelegs",
     "id": 22631,
     "image": "Statius's_platelegs.png",
@@ -72317,30 +70070,9 @@
     "category": null
   },
   {
-    "name": "Statius's warhammer (bh)",
-    "id": 27908,
-    "image": "Statius's_warhammer_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Statius's warhammer (bh)(inactive)",
-    "id": 27910,
-    "image": "Statius's_warhammer_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Statius's warhammer",
     "id": 22622,
     "image": "Statius's_warhammer.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Statius's warhammer",
-    "id": 23620,
-    "image": "Statius's_warhammer_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -72636,20 +70368,6 @@
     "id": 808,
     "image": "Steel_dart.png",
     "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Steel defender (broken)",
-    "id": 20453,
-    "image": "Steel_defender_(broken).png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Steel defender (l)",
-    "id": 24138,
-    "image": "Steel_defender.png",
-    "slot": "shield",
     "category": null
   },
   {
@@ -75040,38 +72758,10 @@
     "category": null
   },
   {
-    "name": "Superior calamity breeches (broken)",
-    "id": 26693,
-    "image": "Superior_calamity_breeches_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Superior calamity breeches (l)",
-    "id": 26758,
-    "image": "Superior_calamity_breeches_(l).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Superior calamity breeches",
     "id": 26757,
     "image": "Superior_calamity_breeches.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Superior calamity chest (broken)",
-    "id": 26690,
-    "image": "Superior_calamity_chest_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Superior calamity chest (l)",
-    "id": 26752,
-    "image": "Superior_calamity_chest_(l).png",
-    "slot": "body",
     "category": null
   },
   {
@@ -77763,13 +75453,6 @@
     "category": null
   },
   {
-    "name": "Torag's platelegs",
-    "id": 23634,
-    "image": "Torag's_platelegs_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Torag's platelegs 0",
     "id": 4974,
     "image": "Torag's_platelegs_0.png",
@@ -77843,13 +75526,6 @@
     "name": "Tormented bracelet",
     "id": 19544,
     "image": "Tormented_bracelet.png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Tormented bracelet",
-    "id": 27171,
-    "image": "Tormented_bracelet_(Last_Man_Standing).png",
     "slot": "hands",
     "category": null
   },
@@ -81165,38 +78841,10 @@
     "category": null
   },
   {
-    "name": "Vesta's chainbody (bh)",
-    "id": 27831,
-    "image": "Vesta's_chainbody_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Vesta's chainbody (bh)(inactive)",
-    "id": 27925,
-    "image": "Vesta's_chainbody_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Vesta's chainbody",
     "id": 22616,
     "image": "Vesta's_chainbody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Vesta's longsword (bh)",
-    "id": 27904,
-    "image": "Vesta's_longsword_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Vesta's longsword (bh)(inactive)",
-    "id": 27906,
-    "image": "Vesta's_longsword_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -81207,45 +78855,10 @@
     "category": null
   },
   {
-    "name": "Vesta's longsword",
-    "id": 23615,
-    "image": "Vesta's_longsword_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Vesta's plateskirt (bh)",
-    "id": 27832,
-    "image": "Vesta's_plateskirt_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Vesta's plateskirt (bh)(inactive)",
-    "id": 27928,
-    "image": "Vesta's_plateskirt_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Vesta's plateskirt",
     "id": 22619,
     "image": "Vesta's_plateskirt.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Vesta's spear (bh)",
-    "id": 27900,
-    "image": "Vesta's_spear_(bh).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Vesta's spear (bh)(inactive)",
-    "id": 27902,
-    "image": "Vesta's_spear_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -81599,30 +79212,9 @@
     "category": null
   },
   {
-    "name": "Void knight gloves (l)(or)",
-    "id": 27002,
-    "image": "Void_knight_gloves_(or).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
     "name": "Void knight gloves (or)",
     "id": 26467,
     "image": "Void_knight_gloves_(or).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Void knight gloves (broken)",
-    "id": 20475,
-    "image": "Void_knight_gloves_(broken).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Void knight gloves (l)",
-    "id": 24182,
-    "image": "Void_knight_gloves.png",
     "slot": "hands",
     "category": null
   },
@@ -81634,20 +79226,6 @@
     "category": null
   },
   {
-    "name": "Void knight mace (broken)",
-    "id": 20473,
-    "image": "Void_knight_mace_(broken).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Void knight mace (l)",
-    "id": 24181,
-    "image": "Void_knight_mace.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Void knight mace",
     "id": 8841,
     "image": "Void_knight_mace.png",
@@ -81655,30 +79233,9 @@
     "category": null
   },
   {
-    "name": "Void knight robe (l)(or)",
-    "id": 27001,
-    "image": "Void_knight_robe_(or).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Void knight robe (or)",
     "id": 26465,
     "image": "Void_knight_robe_(or).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Void knight robe (broken)",
-    "id": 20469,
-    "image": "Void_knight_robe_(broken).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Void knight robe (l)",
-    "id": 24179,
-    "image": "Void_knight_robe.png",
     "slot": "legs",
     "category": null
   },
@@ -81690,30 +79247,9 @@
     "category": null
   },
   {
-    "name": "Void knight top (l)(or)",
-    "id": 27000,
-    "image": "Void_knight_top_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Void knight top (or)",
     "id": 26463,
     "image": "Void_knight_top_(or).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Void knight top (broken)",
-    "id": 20465,
-    "image": "Void_knight_top_(broken).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Void knight top (l)",
-    "id": 24177,
-    "image": "Void_knight_top.png",
     "slot": "body",
     "category": null
   },
@@ -81725,30 +79261,9 @@
     "category": null
   },
   {
-    "name": "Void mage helm (l)(or)",
-    "id": 27005,
-    "image": "Void_mage_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Void mage helm (or)",
     "id": 26473,
     "image": "Void_mage_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void mage helm (broken)",
-    "id": 20477,
-    "image": "Void_mage_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void mage helm (l)",
-    "id": 24183,
-    "image": "Void_mage_helm.png",
     "slot": "head",
     "category": null
   },
@@ -81760,30 +79275,9 @@
     "category": null
   },
   {
-    "name": "Void melee helm (l)(or)",
-    "id": 27007,
-    "image": "Void_melee_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Void melee helm (or)",
     "id": 26477,
     "image": "Void_melee_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void melee helm (broken)",
-    "id": 20481,
-    "image": "Void_melee_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void melee helm (l)",
-    "id": 24185,
-    "image": "Void_melee_helm.png",
     "slot": "head",
     "category": null
   },
@@ -81802,30 +79296,9 @@
     "category": null
   },
   {
-    "name": "Void ranger helm (l)(or)",
-    "id": 27006,
-    "image": "Void_ranger_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Void ranger helm (or)",
     "id": 26475,
     "image": "Void_ranger_helm_(or).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void ranger helm (broken)",
-    "id": 20479,
-    "image": "Void_ranger_helm_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Void ranger helm (l)",
-    "id": 24184,
-    "image": "Void_ranger_helm.png",
     "slot": "head",
     "category": null
   },
@@ -81907,13 +79380,6 @@
     "category": null
   },
   {
-    "name": "Voidwaker",
-    "id": 27869,
-    "image": "Voidwaker_(Last_Man_Standing).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Voidwaker blade",
     "id": 27684,
     "image": "Voidwaker_blade.png",
@@ -81945,13 +79411,6 @@
     "name": "Volatile nightmare staff (deadman)",
     "id": 29609,
     "image": "Volatile_nightmare_staff_(deadman).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Volatile nightmare staff",
-    "id": 25517,
-    "image": "Volatile_nightmare_staff_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -82498,27 +79957,6 @@
     "name": "Water rune",
     "id": 555,
     "image": "Water_rune.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Water rune",
-    "id": 11687,
-    "image": "Water_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Water rune (nz)",
-    "id": 11716,
-    "image": "Water_rune_(nz).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Water rune",
-    "id": 9691,
-    "image": "Water_rune_(The_Slug_Menace).png",
     "slot": "",
     "category": null
   },
@@ -84259,13 +81697,6 @@
     "category": null
   },
   {
-    "name": "Wrath rune",
-    "id": 22208,
-    "image": "Wrath_rune_(Barbarian_Assault).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Wrath talisman",
     "id": 22118,
     "image": "Wrath_talisman.png",
@@ -84284,13 +81715,6 @@
     "id": 6713,
     "image": "Wrench.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Hardened wristbands of the arena (broken)",
-    "id": 26697,
-    "image": "Hardened_wristbands_of_the_arena_(broken).png",
-    "slot": "hands",
     "category": null
   },
   {
@@ -84322,13 +81746,6 @@
     "category": null
   },
   {
-    "name": "Wristbands of the arena (broken)",
-    "id": 26696,
-    "image": "Wristbands_of_the_arena_(broken).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
     "name": "Wristbands of the arena (c)",
     "id": 26725,
     "image": "Wristbands_of_the_arena_(c).png",
@@ -84339,13 +81756,6 @@
     "name": "Wristbands of the arena (cl)",
     "id": 26726,
     "image": "Wristbands_of_the_arena_(cl).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Wristbands of the arena (l)",
-    "id": 26724,
-    "image": "Wristbands_of_the_arena_(l).png",
     "slot": "hands",
     "category": null
   },
@@ -85155,13 +82565,6 @@
     "category": null
   },
   {
-    "name": "Zamorak chaps",
-    "id": 27181,
-    "image": "Zamorak_chaps_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Zamorak cloak",
     "id": 10450,
     "image": "Zamorak_cloak.png",
@@ -85243,20 +82646,6 @@
     "id": 20077,
     "image": "Zamorak_godsword_ornament_kit.png",
     "slot": "",
-    "category": null
-  },
-  {
-    "name": "Zamorak halo (broken)",
-    "id": 20539,
-    "image": "Zamorak_halo_(broken).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Zamorak halo (l)",
-    "id": 24170,
-    "image": "Zamorak_halo.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -85459,13 +82848,6 @@
     "name": "Zaryte crossbow",
     "id": 26374,
     "image": "Zaryte_crossbow.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Zaryte crossbow",
-    "id": 27186,
-    "image": "Zaryte_crossbow_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   },
@@ -85715,38 +83097,10 @@
     "category": null
   },
   {
-    "name": "Zuriel's hood (bh)",
-    "id": 27839,
-    "image": "Zuriel's_hood_(bh).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Zuriel's hood (bh)(inactive)",
-    "id": 27949,
-    "image": "Zuriel's_hood_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Zuriel's hood",
     "id": 22650,
     "image": "Zuriel's_hood.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Zuriel's robe bottom (bh)",
-    "id": 27841,
-    "image": "Zuriel's_robe_bottom_(bh).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Zuriel's robe bottom (bh)(inactive)",
-    "id": 27955,
-    "image": "Zuriel's_robe_bottom_(bh)(inactive).png",
-    "slot": "",
     "category": null
   },
   {
@@ -85757,20 +83111,6 @@
     "category": null
   },
   {
-    "name": "Zuriel's robe top (bh)",
-    "id": 27840,
-    "image": "Zuriel's_robe_top_(bh).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Zuriel's robe top (bh)(inactive)",
-    "id": 27952,
-    "image": "Zuriel's_robe_top_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Zuriel's robe top",
     "id": 22653,
     "image": "Zuriel's_robe_top.png",
@@ -85778,30 +83118,9 @@
     "category": null
   },
   {
-    "name": "Zuriel's staff (bh)",
-    "id": 27920,
-    "image": "Zuriel's_staff_(bh).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Zuriel's staff (bh)(inactive)",
-    "id": 27922,
-    "image": "Zuriel's_staff_(bh)(inactive).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Zuriel's staff",
     "id": 22647,
     "image": "Zuriel's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Zuriel's staff",
-    "id": 23617,
-    "image": "Zuriel's_staff_(Last_Man_Standing).png",
     "slot": "weapon",
     "category": null
   }
