@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>OSRS Bank Simulator</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <div class="app">
+    <div class="side-panel">
+    <h3>OSRS Bank Simulator</h3>
+    
+    <div class="instruction-section">
+        <h4>How to use</h4>
+        <ul>
+            <li><span>Drag & Drop:</span> Move items from the panel to the bank.</li>
+            <li><span>Swap/Insert:</span> Use the buttons in the bank to change how items move.</li>
+            <li><span>Tabs:</span> Press the <strong>+</strong> button to create a new empty tab. <br> <strong>Right-click</strong> on a tab to Save to it or Delete it.</li>
+            <li><span>Auto-Save:</span> When activated, every move is saved to the active tab.</li>
+            <!-- <li><span>Share:</span> Use the Export and Import buttons to share your tabs with others.</li> -->
+            <li><span>Feedback:</span> Found a bug or have a feature idea?<br>Open an issue on GitHub below!</li>
+        </ul>
+    </div>
+
+    <!-- <div class="control-group">
+        <button id="import-tab" class="side-btn secondary">Import Tab</button>
+        <button id="export-tab" class="side-btn secondary">Export Tab</button>
+    </div> -->
+
+    <div class="control-group">
+        <button id="autosave-toggle" class="side-btn">Auto-Save: OFF</button>
+    </div>
+
+      <div class="info-footer">
+          <a href="https://www.ko-fi.com/Pirrkatt" target="_blank" class="coffee-link" draggable="false">
+              <img src="https://storage.ko-fi.com/cdn/kofi2.png?v=3" alt="Buy Me a Coffee at ko-fi.com" draggable="false" style="height: 26px !important; width: 110px !important">
+          </a>
+
+          <a href="https://github.com/Pirrkatt/osrs-bank-sim" target="_blank" class="badge-link" draggable="false" >
+            <img src="https://img.shields.io/badge/GitHub-osrs--bank--sim-black?logo=github&style=for-the-badge" alt="GitHub" draggable="false" style="height: 22px !important; width: 200px !important">
+        </a>
+      </div>
+    </div>
+
+    <div class="bank-wrapper">
+      <div class="bank">
+        <img src="assets/images/bankBackground.png" id="bank-background" alt="Bank" draggable="false"/>
+
+          <div class="bank-info-container">
+              <div id="current-count" class="slot-count-number">0</div>
+              <div id="max-count" class="slot-count-number">104</div>
+          </div>
+
+          <div class="bank-grid">
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+            <div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div><div class="slot"></div>
+        </div>
+
+        <button class="save-layout-btn" id="save-layout">
+          <img src="assets/images/saveLayout.png" draggable="false">
+        </button>
+
+        <button class="mode-btn swap-btn active" id="swap-btn"></button>
+        <button class="mode-btn insert-btn" id="insert-btn"></button>
+      </div>
+    </div>
+
+    <div class="item-panel">
+      <div class="search-container">
+          <input type="text" id="item-search" placeholder="Search item..." />
+          <button id="clear-search" class="clear-btn">&times;</button>
+      </div>
+      <div class="item-list">
+        </div>
+    </div>
+</div>
+
+  <script src="storage.js"></script>
+  <script src="dragdrop.js"></script>
+  <!-- <script src="share.js"></script> -->
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Design assets
+*.psd
+*.ai
+
+# Programming / Node
+node_modules/
+.npm
+.env
+*.log
+
+# Editors
+.vscode/
+.idea/
+
+# Other
+todo.md
