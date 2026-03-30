@@ -1,3 +1,10 @@
+document.addEventListener('dragover', (e) => {
+    if (document.body.classList.contains('dragging-item')) {
+        e.preventDefault();
+        e.dataTransfer.dropEffect = 'move';
+    }
+});
+
 const DragDrop = {
     makeDraggable(item) {
         item.addEventListener('dragstart', (e) => {
