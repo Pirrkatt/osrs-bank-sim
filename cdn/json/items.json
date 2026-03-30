@@ -280,13 +280,6 @@
     "category": null
   },
   {
-    "name": "3rd age mage hat",
-    "id": 27183,
-    "image": "3rd_age_mage_hat_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "3rd age pickaxe",
     "id": 20014,
     "image": "3rd_age_pickaxe.png",
@@ -322,23 +315,9 @@
     "category": null
   },
   {
-    "name": "3rd age range coif",
-    "id": 27201,
-    "image": "3rd_age_range_coif_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "3rd age range legs",
     "id": 10332,
     "image": "3rd_age_range_legs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "3rd age range legs",
-    "id": 27200,
-    "image": "3rd_age_range_legs_(Last_Man_Standing).png",
     "slot": "legs",
     "category": null
   },
@@ -350,13 +329,6 @@
     "category": null
   },
   {
-    "name": "3rd age range top",
-    "id": 27199,
-    "image": "3rd_age_range_top_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "3rd age robe",
     "id": 10340,
     "image": "3rd_age_robe.png",
@@ -364,23 +336,9 @@
     "category": null
   },
   {
-    "name": "3rd age robe",
-    "id": 20577,
-    "image": "3rd_age_robe_(Last_Man_Standing).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "3rd age robe top",
     "id": 10338,
     "image": "3rd_age_robe_top.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "3rd age robe top",
-    "id": 20576,
-    "image": "3rd_age_robe_top_(Last_Man_Standing).png",
     "slot": "body",
     "category": null
   },
@@ -3367,13 +3325,6 @@
     "category": null
   },
   {
-    "name": "Ancestral hat",
-    "id": 25518,
-    "image": "Ancestral_hat_(Last_Man_Standing).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Ancestral key",
     "id": 6792,
     "image": "Ancestral_key.png",
@@ -3388,23 +3339,9 @@
     "category": null
   },
   {
-    "name": "Ancestral robe bottom",
-    "id": 27194,
-    "image": "Ancestral_robe_bottom_(Last_Man_Standing).png",
-    "slot": "Legs",
-    "category": null
-  },
-  {
     "name": "Ancestral robe top",
     "id": 21021,
     "image": "Ancestral_robe_top.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ancestral robe top",
-    "id": 27193,
-    "image": "Ancestral_robe_top_(Last_Man_Standing).png",
     "slot": "body",
     "category": null
   },
@@ -31493,6 +31430,13 @@
     "category": null
   },
   {
+    "name": "Dark nullifier",
+    "id": 25815,
+    "image": "Dark_nullifier.png",
+    "slot": "",
+    "category": null
+  },
+  {
     "name": "Dark relic",
     "id": 21027,
     "image": "Dark_relic.png",
@@ -38580,13 +38524,6 @@
     "name": "Eternal boots",
     "id": 13235,
     "image": "Eternal_boots.png",
-    "slot": "feet",
-    "category": null
-  },
-  {
-    "name": "Eternal boots",
-    "id": 23644,
-    "image": "Eternal_boots_(Last_Man_Standing).png",
     "slot": "feet",
     "category": null
   },
@@ -49546,13 +49483,6 @@
     "category": null
   },
   {
-    "name": "Infinity boots",
-    "id": 27170,
-    "image": "Infinity_boots_(Last_Man_Standing).png",
-    "slot": "feet",
-    "category": null
-  },
-  {
     "name": "Infinity bottoms",
     "id": 6924,
     "image": "Infinity_bottoms.png",
@@ -54411,7 +54341,7 @@
     "category": null
   },
   {
-    "name": "Lovley<sup class=\"noprint\">&#91;<span class=\"fact-text\" title=\"The preceding quoted material has been reproduced verbatim from the quoted original and is not a transcription error.\">sic</span>&#93;</sup> jubbly bib",
+    "name": "Lovley jubbly bib",
     "id": 32928,
     "image": "Lovley_jubbly_bib.png",
     "slot": "neck",
@@ -67228,13 +67158,6 @@
     "category": null
   },
   {
-    "name": "Rangers' tunic",
-    "id": 27179,
-    "image": "Rangers'_tunic_(Last_Man_Standing).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Ranging cape(t)",
     "id": 9757,
     "image": "Ranging_cape(t).png",
@@ -74707,13 +74630,6 @@
     "name": "Seers ring",
     "id": 6731,
     "image": "Seers_ring.png",
-    "slot": "ring",
-    "category": null
-  },
-  {
-    "name": "Seers ring (i)",
-    "id": 23624,
-    "image": "Seers_ring_(i)_(Last_Man_Standing).png",
     "slot": "ring",
     "category": null
   },
@@ -92998,13 +92914,6 @@
     "name": "Wizard boots",
     "id": 2579,
     "image": "Wizard_boots.png",
-    "slot": "feet",
-    "category": null
-  },
-  {
-    "name": "Wizard boots",
-    "id": 27162,
-    "image": "Wizard_boots_(Last_Man_Standing).png",
     "slot": "feet",
     "category": null
   },

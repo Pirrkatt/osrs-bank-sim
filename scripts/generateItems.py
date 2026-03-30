@@ -27,9 +27,13 @@ BUCKET_API_FIELDS = [
     'infobox_bonuses.equipment_slot',
 ]
 
+def get_safe_filename(wiki_name):
+    clean = html.unescape(wiki_name)
+    name = re.sub(r'[\\/*?:"<>|]', '', clean).replace(' ', '_')
+    return name.lstrip('_')
+
 def get_session():
     session = requests.Session()
-
     retries = Retry(
         total=5,
         backoff_factor=1,
@@ -86,10 +90,6 @@ def get_equipment_data(session):
     return equipment
 
 def get_direct_image_urls(session, image_names):
-    """
-    Takes a list of 'File:Image.png' names and returns a map of {name: direct_url}.
-    This is much faster and safer than Special:Filepath.
-    """
     url_map = {}
 
     for i in range(0, len(image_names), 50):
@@ -118,23 +118,30 @@ def main():
     wiki_data = get_equipment_data(session)
 
     data = {}
-    required_imgs = set()
-    download_queue = {}
+    download_queue = {} # {safe_local_name: original_wiki_name}
 
     for v in wiki_data:
         pns = v['page_name_sub']
         if pns in data:
             continue
 
-        item_name = v.get('item_name', '')
+        # Display Name
+        raw_name = html.unescape(v.get('item_name', ''))
+        item_name = re.sub(r'<[^>]*>', '', raw_name) # Removes <sup> etc
+        item_name = item_name.replace('[sic]', '').strip()
+        item_name = ' '.join(item_name.split())
+
+        # Image Name
         wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
         
-        excluded_terms = ['(animation item)', '[[', 'category:', 'null']
-
+        # Filtering
+        excluded_terms = ['(animation item)', '[[', 'category:', 'null <sup']
         if any(term in item_name.lower() for term in excluded_terms) or \
            any(term in wiki_img_name.lower() for term in excluded_terms) or \
            not wiki_img_name:
             continue
+
+        local_filename = get_safe_filename(wiki_img_name)
 
         try:
             raw_id = v.get('item_id')
@@ -144,19 +151,15 @@ def main():
         except (ValueError, TypeError, IndexError):
             continue
 
-        clean_name = html.unescape(wiki_img_name)
-        local_filename = re.sub(r'[\\/*?:"<>|]', '', clean_name).replace(' ', '_')
-        local_filename = local_filename.lstrip('_')
-
         data[pns] = {
-            'name': v['item_name'],
+            'name': item_name,
             'id': item_id,
             'image': local_filename,
             'slot': v.get('infobox_bonuses.equipment_slot', ''),
             'category': None # Extend later
         }
 
-        download_queue[local_filename] = clean_name
+        download_queue[local_filename] = wiki_img_name
 
     # Save JSON
     img_root = Path(IMG_PATH)
@@ -168,9 +171,11 @@ def main():
 
     # Download Logic
     to_download = []
+    wiki_to_safe = {}
     for local, wiki in download_queue.items():
         if not (img_root / local).is_file():
             to_download.append(wiki)
+            wiki_to_safe[wiki] = local
 
     if not to_download:
         print("All images already exist.")
@@ -180,12 +185,17 @@ def main():
     url_map = get_direct_image_urls(session, to_download)
 
     success_count = 0
-    for idx, (wiki_name, direct_url) in enumerate(url_map.items()):
+    total_to_download = len(url_map)
 
-        local_name = re.sub(r'[\\/*?:"<>|]', '', wiki_name).replace(' ', '_')
+    for idx, (wiki_name, direct_url) in enumerate(url_map.items()):
+        local_name = wiki_to_safe.get(wiki_name)
+        if not local_name:
+        	continue
+
         target_file = img_root / local_name
 
-        print(f'({idx + 1}/{len(url_map)}) Downloading: {local_name}')
+        print(f'({idx + 1}/{total_to_download}) Downloading: {local_name}')
+
         try:
             r = session.get(direct_url, timeout=20)
             if r.ok:
@@ -193,7 +203,7 @@ def main():
                     f.write(r.content)
                 success_count += 1
             
-            time.sleep(0.2) 
+            time.sleep(0.1) 
         except Exception as e:
             print(f"Error downloading {wiki_name}: {e}")
 
