@@ -118,7 +118,8 @@ def main():
     wiki_data = get_equipment_data(session)
 
     data = {}
-    download_queue = {} # {safe_local_name: original_wiki_name}
+    download_queue = {}
+    seen_items = set()
 
     for v in wiki_data:
         pns = v['page_name_sub']
@@ -134,6 +135,10 @@ def main():
         # Image Name
         wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
         
+        item_key = f"{item_name}_{wiki_img_name}".lower()
+        if item_key in seen_items:
+            continue
+
         # Filtering
         excluded_terms = ['(animation item)', '[[', 'category:', 'null <sup']
         if any(term in item_name.lower() for term in excluded_terms) or \
@@ -150,6 +155,8 @@ def main():
                 continue
         except (ValueError, TypeError, IndexError):
             continue
+
+        seen_items.add(item_key)
 
         data[pns] = {
             'name': item_name,
