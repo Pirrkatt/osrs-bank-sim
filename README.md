@@ -3,7 +3,7 @@
 A web-based tool designed for Old School RuneScape players to plan, visualize, and save their bank layouts. <br>
 Perfect for organizing gear setups, slayer tabs, or just achieving that peak bank aesthetic — without moving items manually in-game.
 
-🔗 **Live Site:** <link>
+🔗 **Live Site:** [OSRS Bank Layout Simulator](https://pirrkatt.github.io/osrs-bank-sim/)
 
 ---
 
