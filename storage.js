@@ -41,7 +41,6 @@ const StorageManager = {
         if (index !== -1) {
             layouts[index].data = this.captureLayout(slots);
             localStorage.setItem(this.CONFIG.storageKey, JSON.stringify(layouts));
-            console.log("Autosaved!");
         }
     },
 
