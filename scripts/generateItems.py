@@ -1,17 +1,13 @@
-"""
-    Script to generate an items.json of all the items on the OSRS Wiki, and downloads images for each item.
-    The JSON file is placed in ../src/lib/items.json.
-
-    The images are placed in ../cdn/items/. This directory is NOT included in the Next.js app bundle, and should
-    be deployed separately to our file storage solution.
-
-    Written for Python 3.9.
-"""
 import os
 import requests
 import json
 import urllib.parse
 import re
+import time
+import html
+from pathlib import Path
+from requests.adapters import HTTPAdapter
+from urllib3.util.retry import Retry
 
 FILE_NAME = '../cdn/json/items.json'
 WIKI_BASE = 'https://oldschool.runescape.wiki'
@@ -28,184 +24,170 @@ BUCKET_API_FIELDS = [
     'item_name',
     'image',
     'item_id',
+    'infobox_bonuses.equipment_slot',
 ]
 
-ITEMS_TO_SKIP = [
-    'The dogsword',
-    'Drygore blowpipe',
-    'Amulet of the monarchs',
-    'Emperor ring',
-    'Devil\'s element',
-    'Nature\'s reprisal',
-    'Gloves of the damned',
-    'Crystal blessing',
-    'Sunlight spear',
-    'Sunlit bracers',
-    'Thunder khopesh',
-    'Thousand-dragon ward',
-    'Arcane grimoire',
-    'Wristbands of the arena',
-    'Wristbands of the arena (i)',
-    'Armadyl chainskirt (or)',
-    'Armadyl chestplate (or)',
-    'Armadyl helmet (or)',
-    'Dagon\'hai hat (or)',
-    'Dagon\'hai robe bottom (or)',
-    'Dagon\'hai robe top (or)',
-    'Dragon warhammer (or)',
-    'Centurion cuirass',
-    'Ruinous powers (item)',
-    'Battlehat',
-    'Zaryte bow'
-]
+def get_session():
+    session = requests.Session()
 
-def getEquipmentData():
+    retries = Retry(
+        total=5,
+        backoff_factor=1,
+        status_forcelist=[429, 500, 502, 503, 504],
+        allowed_methods=["GET"]
+    )
+    session.mount('https://', HTTPAdapter(max_retries=retries))
+    session.headers.update(HEADERS)
+    return session
+
+def get_equipment_data(session):
     equipment = []
     offset = 0
     fields_csv = ",".join(map(repr, BUCKET_API_FIELDS))
+    
     while True:
-        print('Fetching equipment info: ' + str(offset))
-        innerQuery = {
-            'query': 
+        print(f'Fetching equipment info: {offset}')
+        query = {
+            'action': 'bucket',
+            'format': 'json',
+            'query':
             (
                 f"bucket('infobox_item')"
                 f".select({fields_csv})"
                 f".limit(500).offset({offset})"
                 f".where('item_id', '!=', bucket.Null())"
                 f".where('Category:Items')"
-                # f".where('Category:Equipable items')"
+                # f".where('infobox_bonuses.equipment_slot', '!=', bucket.Null())"
+                f".join('infobox_bonuses', 'infobox_bonuses.page_name_sub', 'infobox_item.page_name_sub')"
                 # Exclude
                 f".where(bucket.Not('Category:Interface items'))"
-                f".where(bucket.Not('Category:Unobtainable items'))"
                 f".where(bucket.Not('Category:Discontinued content'))"
                 f".where(bucket.Not('Category:Beta items'))"
+                f".where(bucket.Not('Category:Unobtainable items'))"
                 # ---
-                f".orderBy('item_name', 'asc').run()"
+                f".orderBy('page_name_sub', 'asc').run()"
             )
         }
-        query = {
-            'action': 'bucket',
-            'format': 'json',
-            'query':  innerQuery.get('query')
-        }
 
-        r = requests.get(API_BASE + '?' + urllib.parse.urlencode(query), headers=HEADERS)
-
-        if (r.status_code != 200):
-            print("Error fetching data from wiki API: " + str(r.status_code))
-            break
-
+        r = session.get(API_BASE, params=query, timeout=30)
+        r.raise_for_status()
         data = r.json()
 
         if 'bucket' not in data:
-            print("No bucket data found!")
-            # No results?
             break
 
-        equipment = equipment + data['bucket']
-
-        # Bucket's API doesn't tell you when there are more results, so we'll just have to guess
-        if len(data['bucket']) == 500:
-            offset += 500
-        else:
-            # If we are at the end of the results, break out of this loop
+        equipment.extend(data['bucket'])
+        if len(data['bucket']) < 500:
             break
+        
+        offset += 500
+        time.sleep(0.5)
 
     return equipment
 
+def get_direct_image_urls(session, image_names):
+    """
+    Takes a list of 'File:Image.png' names and returns a map of {name: direct_url}.
+    This is much faster and safer than Special:Filepath.
+    """
+    url_map = {}
+
+    for i in range(0, len(image_names), 50):
+        batch = image_names[i:i+50]
+        params = {
+            'action': 'query',
+            'format': 'json',
+            'prop': 'imageinfo',
+            'iiprop': 'url',
+            'titles': '|'.join([f'File:{img}' if not img.startswith('File:') else img for img in batch])
+        }
+        r = session.get(API_BASE, params=params)
+        data = r.json()
+        
+        pages = data.get('query', {}).get('pages', {})
+        for page_id, info in pages.items():
+            title = info.get('title', '').replace('File:', '')
+            if 'imageinfo' in info:
+                url_map[title] = info['imageinfo'][0]['url']
+        
+        time.sleep(0.2)
+    return url_map
 
 def main():
-    # Grab the equipment info using Bucket
-    wiki_data = getEquipmentData()
+    session = get_session()
+    wiki_data = get_equipment_data(session)
 
-    # Use an object rather than an array, so that we can't have duplicate items with the same page_name_sub
     data = {}
-    required_imgs = []
+    required_imgs = set()
+    download_queue = {}
 
-    # Loop over the equipment data from the wiki
     for v in wiki_data:
-        if v['page_name_sub'] in data:
+        pns = v['page_name_sub']
+        if pns in data:
             continue
-
-        print(f"Processing {v['page_name_sub']}")
 
         try:
             item_id = int(v.get('item_id')[0]) if v.get('item_id') else None
-        except ValueError:
-            # Item has an invalid ID, do not show it here as it's probably historical or something.
-            print("Skipping - invalid item ID (not an int)")
+        except (ValueError, TypeError):
             continue
 
-        equipment = {
+        wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
+        if not wiki_img_name:
+            continue
+
+        clean_name = html.unescape(wiki_img_name)
+        local_filename = re.sub(r'[\\/*?:"<>|]', '', clean_name).replace(' ', '_')
+
+        data[pns] = {
             'name': v['item_name'],
             'id': item_id,
-            'image': '' if not v.get('image') else v.get('image')[-1].replace('File:', ''),
-            'imagepath': re.sub(r'[^a-zA-Z0-9\s._()-]', '_','' if not v.get('image') else v.get('image')[-1].replace('File:', '')),
+            'image': local_filename,
+            'slot': v.get('infobox_bonuses.equipment_slot', ''),
+            'category': None # Extend later
         }
-    
-        if equipment['name'] in ITEMS_TO_SKIP:
-            continue
 
-        # Set the current equipment item to the calc's equipment list
-        data[v['page_name_sub']] = equipment
+        download_queue[local_filename] = clean_name
 
-        if not equipment['image'] == '':
-            required_imgs.append(equipment['image'])
+    # Save JSON
+    img_root = Path(IMG_PATH)
+    img_root.mkdir(parents=True, exist_ok=True)
 
-    new_data = list(data.values())
+    with open(FILE_NAME, 'w', encoding='utf-8') as f:
+        print(f'Saving to JSON: {FILE_NAME}')
+        json.dump(list(data.values()), f, ensure_ascii=False, indent=2)
 
-    print('Total equipment: ' + str(len(new_data)))
-    new_data.sort(key=lambda d: d.get('name'))
+    # Download Logic
+    to_download = []
+    for local, wiki in download_queue.items():
+        if not (img_root / local).is_file():
+            to_download.append(wiki)
 
-    with open(FILE_NAME, 'w') as f:
-        print('Saving to JSON at file: ' + FILE_NAME)
-        json.dump(new_data, f, ensure_ascii=False, indent=2)
+    if not to_download:
+        print("All images already exist.")
+        return
 
-    success_img_dls = 0
-    failed_img_dls = 0
-    skipped_img_dls = 0
-    required_imgs = set(required_imgs)
+    print(f"Resolving URLs for {len(to_download)} missing images...")
+    url_map = get_direct_image_urls(session, to_download)
 
-    # Fetch all the images from the wiki and store them for local serving
-    for idx, img in enumerate(required_imgs):
+    success_count = 0
+    for idx, (wiki_name, direct_url) in enumerate(url_map.items()):
 
-        imgName = re.sub(r'[^a-zA-Z0-9\s._()-]', '_', img)
+        local_name = re.sub(r'[\\/*?:"<>|]', '', wiki_name).replace(' ', '_')
+        target_file = img_root / local_name
 
-        if os.path.isfile(IMG_PATH + imgName):
-            skipped_img_dls += 1
-            continue
-
-        print(f'({idx}/{len(required_imgs)}) Fetching image: {img}')
-        r = requests.get(WIKI_BASE + '/w/Special:Filepath/' + img, headers=HEADERS)
-        if r.ok:
-            with open(IMG_PATH + imgName, 'wb') as f:
-                f.write(r.content)
-                print('Saved image: ' + imgName)
-                success_img_dls += 1
-        else:
-            print('Unable to save image: ' + imgName)
-            failed_img_dls += 1
-
-    print('Total images saved: ' + str(success_img_dls))
-    print('Total images skipped (already exists): ' + str(skipped_img_dls))
-    print('Total images failed to save: ' + str(failed_img_dls))
-    
-    # Download the itemsmin.js file into ../cdn/js/
-    try:
-        url = 'https://chisel.weirdgloop.org/moid/data_files/itemsmin.js'
-        local_filename = url.split('/')[-1]
-        target_dir = os.path.normpath(os.path.join(os.path.dirname(FILE_NAME), '..', 'js'))
-        os.makedirs(target_dir, exist_ok=True)
-        out_path = os.path.join(target_dir, local_filename)
-        print(f'Downloading {url} -> {out_path}')
-        with requests.get(url, stream=True, headers=HEADERS) as r:
+        print(f'({idx + 1}/{len(url_map)}) Downloading: {local_name}')
+        try:
+            r = session.get(direct_url, timeout=20)
             if r.ok:
-                with open(out_path, 'wb') as f:
-                    f.write(r.content[6:])
-                print('Saved', out_path)
-            else:
-                print('Failed to download', url, 'status', r.status_code)
-    except Exception as e:
-        print('Error downloading itemsmin.js:', e)
+                with open(target_file, 'wb') as f:
+                    f.write(r.content)
+                success_count += 1
+            
+            time.sleep(0.2) 
+        except Exception as e:
+            print(f"Error downloading {wiki_name}: {e}")
 
-main()
+    print(f"Finished. Saved {success_count} new images.")
+
+if __name__ == "__main__":
+    main()
