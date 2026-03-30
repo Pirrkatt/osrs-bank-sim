@@ -16,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     updateBankCounter();
 
     // Fetch items
-    fetch("equipment.json")
+    fetch("./cdn/json/items.json")
         .then(r => r.json())
         .then(items => {
             itemList.innerHTML = "";
