@@ -1,13 +1,13 @@
 @font-face {
     font-family: 'OSRS-Font';
-    src: url('../assets/fonts/runescape.ttf') format('truetype');
+    src: url('./assets/fonts/runescape.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'OSRS-Font';
-    src: url('../assets/fonts/runescape_bold.ttf') format('truetype');
+    src: url('./assets/fonts/runescape_bold.ttf') format('truetype');
     font-weight: bold;
     font-style: normal;
 }
