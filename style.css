@@ -439,7 +439,7 @@ body {
 
 /* SIDE PANEL */
 .side-panel {
-    width: 360px; /* Gjorde den lite bredare */
+    width: 380px; /* Gjorde den lite bredare */
     background: var(--color-darkgrey);
     border: 1px solid var(--color-almostblack);
     border-radius: 8px;
@@ -491,9 +491,14 @@ body {
 }
 
 .instruction-section li strong {
-    color: var(--osrs-yellow);
     text-shadow: 2px 2px 1px rgba(0,0,0,0.5);
 }
+
+strong.orange { color: var(--osrs-orange); }
+strong.yellow { color: var(--osrs-yellow); }
+strong.red { color: #ff4d4d; }
+strong.blue { color: #4facfe; }
+strong.green { color: #43a047; }
 
 .help-text {
     font-size: 12px;
