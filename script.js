@@ -105,6 +105,7 @@ document.addEventListener('DOMContentLoaded', () => {
             e.preventDefault();
             if (slot.firstElementChild) {
               slot.removeChild(slot.firstElementChild);
+              tooltip.style.display = 'none';
               StorageManager.autoSave(slots);
               updateBankCounter();
             }
