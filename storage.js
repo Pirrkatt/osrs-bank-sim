@@ -85,7 +85,7 @@ const StorageManager = {
             const item = slot.firstElementChild;
             if (!item) return null;
             const img = item.querySelector('img');
-            return { src: img.getAttribute('src'), name: img.title };
+            return { src: img.getAttribute('src'), name: img.dataset.name || img.title };
         });
     },
 
@@ -205,7 +205,7 @@ const StorageManager = {
                 div.className = "item";
                 div.id = `loaded-${Date.now()}-${i}-${Math.floor(Math.random() * 1000)}`;
                 div.draggable = true;
-                div.innerHTML = `<img src="${data[i].src}" title="${data[i].name}">`;
+                div.innerHTML = `<img src="${data[i].src}" data-name="${data[i].name}">`;
                 slot.appendChild(div);
                 DragDrop.makeDraggable(div);
             }
