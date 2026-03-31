@@ -3773,27 +3773,6 @@
     "category": null
   },
   {
-    "name": "Anim offhand",
-    "id": 25938,
-    "image": "Anim_offhand_(1).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Anim offhand",
-    "id": 25950,
-    "image": "Anim_offhand_(5).png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Anim offhand",
-    "id": 25953,
-    "image": "Anim_offhand_(6).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Anima portal",
     "id": 28369,
     "image": "Anima_portal.png",
@@ -4987,13 +4966,6 @@
     "name": "Arclight",
     "id": 19675,
     "image": "Arclight.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Arclight (inactive)",
-    "id": 30305,
-    "image": "Arclight_(inactive).png",
     "slot": "weapon",
     "category": null
   },
@@ -9653,13 +9625,6 @@
     "category": null
   },
   {
-    "name": "Blade of saeldor (inactive)",
-    "id": 23997,
-    "image": "Blade_of_saeldor_(inactive).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Blamish bark shell",
     "id": 3353,
     "image": "Blamish_bark_shell.png",
@@ -12603,13 +12568,6 @@
     "name": "Bow of faerdhinen",
     "id": 25865,
     "image": "Bow_of_faerdhinen.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Bow of faerdhinen (inactive)",
-    "id": 25862,
-    "image": "Bow_of_faerdhinen_(inactive).png",
     "slot": "2h",
     "category": null
   },
@@ -22820,23 +22778,9 @@
     "category": null
   },
   {
-    "name": "Crystal axe (inactive)",
-    "id": 23675,
-    "image": "Crystal_axe_(inactive).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Crystal body",
     "id": 27769,
     "image": "Crystal_body_(Amlodd).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Crystal body (inactive)",
-    "id": 27771,
-    "image": "Crystal_body_(inactive)_(Amlodd).png",
     "slot": "body",
     "category": null
   },
@@ -22862,23 +22806,9 @@
     "category": null
   },
   {
-    "name": "Crystal body (inactive)",
-    "id": 27747,
-    "image": "Crystal_body_(inactive)_(Cadarn).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Crystal body",
     "id": 27757,
     "image": "Crystal_body_(Crwys).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Crystal body (inactive)",
-    "id": 27759,
-    "image": "Crystal_body_(inactive)_(Crwys).png",
     "slot": "body",
     "category": null
   },
@@ -22890,23 +22820,9 @@
     "category": null
   },
   {
-    "name": "Crystal body (inactive)",
-    "id": 33025,
-    "image": "Crystal_body_(inactive,_deadman).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Crystal body",
     "id": 27697,
     "image": "Crystal_body_(Hefin).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Crystal body (inactive)",
-    "id": 27699,
-    "image": "Crystal_body_(inactive)_(Hefin).png",
     "slot": "body",
     "category": null
   },
@@ -22918,23 +22834,9 @@
     "category": null
   },
   {
-    "name": "Crystal body (inactive)",
-    "id": 27723,
-    "image": "Crystal_body_(inactive)_(Iorwerth).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Crystal body",
     "id": 27709,
     "image": "Crystal_body_(Ithell).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Crystal body (inactive)",
-    "id": 27711,
-    "image": "Crystal_body_(inactive)_(Ithell).png",
     "slot": "body",
     "category": null
   },
@@ -22953,23 +22855,9 @@
     "category": null
   },
   {
-    "name": "Crystal body (inactive)",
-    "id": 27735,
-    "image": "Crystal_body_(inactive)_(Trahaearn).png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Crystal body",
     "id": 23975,
     "image": "Crystal_body.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Crystal body (inactive)",
-    "id": 23977,
-    "image": "Crystal_body_(inactive).png",
     "slot": "body",
     "category": null
   },
@@ -23100,13 +22988,6 @@
     "category": null
   },
   {
-    "name": "Crystal felling axe (inactive)",
-    "id": 28223,
-    "image": "Crystal_felling_axe_(inactive).png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Crystal glider's hat",
     "id": 31760,
     "image": "Crystal_glider's_hat.png",
@@ -23191,23 +23072,9 @@
     "category": null
   },
   {
-    "name": "Crystal harpoon (inactive)",
-    "id": 23764,
-    "image": "Crystal_harpoon_(inactive).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Crystal helm",
     "id": 27777,
     "image": "Crystal_helm_(Amlodd).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Crystal helm (inactive)",
-    "id": 27779,
-    "image": "Crystal_helm_(inactive)_(Amlodd).png",
     "slot": "head",
     "category": null
   },
@@ -23233,23 +23100,9 @@
     "category": null
   },
   {
-    "name": "Crystal helm (inactive)",
-    "id": 27755,
-    "image": "Crystal_helm_(inactive)_(Cadarn).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Crystal helm",
     "id": 27765,
     "image": "Crystal_helm_(Crwys).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Crystal helm (inactive)",
-    "id": 27767,
-    "image": "Crystal_helm_(inactive)_(Crwys).png",
     "slot": "head",
     "category": null
   },
@@ -23261,23 +23114,9 @@
     "category": null
   },
   {
-    "name": "Crystal helm (inactive)",
-    "id": 33033,
-    "image": "Crystal_helm_(inactive,_deadman).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Crystal helm",
     "id": 27705,
     "image": "Crystal_helm_(Hefin).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Crystal helm (inactive)",
-    "id": 27707,
-    "image": "Crystal_helm_(inactive)_(Hefin).png",
     "slot": "head",
     "category": null
   },
@@ -23289,23 +23128,9 @@
     "category": null
   },
   {
-    "name": "Crystal helm (inactive)",
-    "id": 27731,
-    "image": "Crystal_helm_(inactive)_(Iorwerth).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Crystal helm",
     "id": 27717,
     "image": "Crystal_helm_(Ithell).png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Crystal helm (inactive)",
-    "id": 27719,
-    "image": "Crystal_helm_(inactive)_(Ithell).png",
     "slot": "head",
     "category": null
   },
@@ -23324,23 +23149,9 @@
     "category": null
   },
   {
-    "name": "Crystal helm (inactive)",
-    "id": 27743,
-    "image": "Crystal_helm_(inactive)_(Trahaearn).png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Crystal helm",
     "id": 23971,
     "image": "Crystal_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Crystal helm (inactive)",
-    "id": 23973,
-    "image": "Crystal_helm_(inactive).png",
     "slot": "head",
     "category": null
   },
@@ -23366,13 +23177,6 @@
     "category": null
   },
   {
-    "name": "Crystal legs (inactive)",
-    "id": 27775,
-    "image": "Crystal_legs_(inactive)_(Amlodd).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Crystal legs (attuned)",
     "id": 23893,
     "image": "Crystal_legs_(attuned).png",
@@ -23394,23 +23198,9 @@
     "category": null
   },
   {
-    "name": "Crystal legs (inactive)",
-    "id": 27751,
-    "image": "Crystal_legs_(inactive)_(Cadarn).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Crystal legs",
     "id": 27761,
     "image": "Crystal_legs_(Crwys).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Crystal legs (inactive)",
-    "id": 27763,
-    "image": "Crystal_legs_(inactive)_(Crwys).png",
     "slot": "legs",
     "category": null
   },
@@ -23422,23 +23212,9 @@
     "category": null
   },
   {
-    "name": "Crystal legs (inactive)",
-    "id": 33029,
-    "image": "Crystal_legs_(inactive,_deadman).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Crystal legs",
     "id": 27701,
     "image": "Crystal_legs_(Hefin).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Crystal legs (inactive)",
-    "id": 27703,
-    "image": "Crystal_legs_(inactive)_(Hefin).png",
     "slot": "legs",
     "category": null
   },
@@ -23450,23 +23226,9 @@
     "category": null
   },
   {
-    "name": "Crystal legs (inactive)",
-    "id": 27727,
-    "image": "Crystal_legs_(inactive)_(Iorwerth).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Crystal legs",
     "id": 27713,
     "image": "Crystal_legs_(Ithell).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Crystal legs (inactive)",
-    "id": 27715,
-    "image": "Crystal_legs_(inactive)_(Ithell).png",
     "slot": "legs",
     "category": null
   },
@@ -23485,23 +23247,9 @@
     "category": null
   },
   {
-    "name": "Crystal legs (inactive)",
-    "id": 27739,
-    "image": "Crystal_legs_(inactive)_(Trahaearn).png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Crystal legs",
     "id": 23979,
     "image": "Crystal_legs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Crystal legs (inactive)",
-    "id": 23981,
-    "image": "Crystal_legs_(inactive).png",
     "slot": "legs",
     "category": null
   },
@@ -23607,13 +23355,6 @@
     "name": "Crystal pickaxe",
     "id": 23680,
     "image": "Crystal_pickaxe.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Crystal pickaxe (inactive)",
-    "id": 23682,
-    "image": "Crystal_pickaxe_(inactive).png",
     "slot": "weapon",
     "category": null
   },
@@ -24893,13 +24634,6 @@
   },
   {
     "name": "Deadman's cape",
-    "id": 24191,
-    "image": "Deadman's_cape_(cosmetic).png",
-    "slot": "cape",
-    "category": null
-  },
-  {
-    "name": "Deadman's cape",
     "id": 13319,
     "image": "Deadman's_cape_(Deadman_Mode).png",
     "slot": "cape",
@@ -24907,23 +24641,9 @@
   },
   {
     "name": "Deadman's chest",
-    "id": 24189,
-    "image": "Deadman's_chest_(cosmetic).png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Deadman's chest",
     "id": 13317,
     "image": "Deadman's_chest_(Deadman_Mode).png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Deadman's legs",
-    "id": 24190,
-    "image": "Deadman's_legs_(cosmetic).png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -74900,13 +74620,6 @@
     "category": null
   },
   {
-    "name": "Toxic staff (uncharged)",
-    "id": 33035,
-    "image": "Toxic_staff_(uncharged,_deadman).png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
     "name": "Toxic staff of the dead",
     "id": 12904,
     "image": "Toxic_staff_of_the_dead.png",
@@ -75799,13 +75512,6 @@
     "name": "Trinket of fortuity (active)",
     "id": 33050,
     "image": "Trinket_of_fortuity.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Trinket of fortuity (inactive)",
-    "id": 33047,
-    "image": "Trinket_of_fortuity_(inactive).png",
     "slot": "",
     "category": null
   },
@@ -77808,13 +77514,6 @@
     "name": "Vesta's blighted longsword",
     "id": 24617,
     "image": "Vesta's_blighted_longsword.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Vesta's longsword (inactive)",
-    "id": 24619,
-    "image": "Vesta's_longsword_(inactive).png",
     "slot": "weapon",
     "category": null
   },

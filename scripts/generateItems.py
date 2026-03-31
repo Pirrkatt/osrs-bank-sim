@@ -27,6 +27,9 @@ BUCKET_API_FIELDS = [
     'infobox_bonuses.equipment_slot',
 ]
 
+DEBUG_MODE = False
+DEBUG_TARGET_IDS = ['33035', '33036', '12904', '12902']
+
 NAME_EXCEPTIONS = [
     '(animation item)',
     '[[',
@@ -37,6 +40,7 @@ NAME_EXCEPTIONS = [
     '(damaged)',
     '(l)',
     '(bh)',
+    'Anim offhand',
 ]
 
 IMAGE_EXCEPTIONS = [
@@ -48,11 +52,27 @@ IMAGE_EXCEPTIONS = [
     '(Barbarian Assault)',
     '(The Slug Menace)',
     '(Last Man Standing)',
+    '(cosmetic)',
+    '(Deadman_starter_pack)',
+    '(inactive)',
+    '(uncharged, deadman)',
+    '(inactive, deadman)',
 ]
 
 BARROWS_EXCEPTIONS = [
     r'\s(0|25|50|75|100)$',
 ]
+
+def check_debug_item(item_id_list, item_name, wiki_img_name):
+    if not DEBUG_MODE or not item_id_list:
+        return
+        
+    if any(str(tid) in item_id_list for tid in DEBUG_TARGET_IDS):
+        print(f"--- DEBUG INFO ---")
+        print(f"ID: {item_id_list}")
+        print(f"Name: '{item_name}'")
+        print(f"Image: '{wiki_img_name}'")
+        print(f"-------------------")
 
 def get_safe_filename(wiki_name):
     clean = html.unescape(wiki_name)
@@ -162,6 +182,9 @@ def main():
         # Image Name
         wiki_img_name = '' if not v.get('image') else v.get('image')[-1].replace('File:', '')
         
+        # Debug (Only if enabled)
+        check_debug_item(v.get('item_id'), item_name, wiki_img_name)
+
         item_key = f"{item_name}_{wiki_img_name}".lower()
         if item_key in seen_items:
             continue
