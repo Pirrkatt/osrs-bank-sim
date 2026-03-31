@@ -73,6 +73,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
+    searchInput.addEventListener('keydown', (e) => {
+        if (e.key === 'Enter') {
+            const firstVisibleItem = document.querySelector('.item-list .item:not(.hidden)');
+            if (firstVisibleItem) {
+                addItemToNextFreeSlot(firstVisibleItem);
+            }
+        }
+    });
+
     // Button: Clear Search
     clearBtn.addEventListener('click', () => {
         searchInput.value = '';
