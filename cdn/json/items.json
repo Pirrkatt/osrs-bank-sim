@@ -3781,13 +3781,6 @@
   },
   {
     "name": "Anim offhand",
-    "id": 25941,
-    "image": "Placeholder.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Anim offhand",
     "id": 25950,
     "image": "Anim_offhand_(5).png",
     "slot": "",
@@ -74645,13 +74638,6 @@
     "id": 4751,
     "image": "Torag's_platelegs.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Torch",
-    "id": 9665,
-    "image": "Placeholder.png",
-    "slot": "",
     "category": null
   },
   {

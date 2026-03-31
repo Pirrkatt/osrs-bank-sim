@@ -40,6 +40,7 @@ NAME_EXCEPTIONS = [
 ]
 
 IMAGE_EXCEPTIONS = [
+    'Placeholder',
     '(animation item)',
     '(horrible)', # Only for ??? Mixture
     '(warm)', # Only for ??? Mixture
