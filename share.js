@@ -63,6 +63,10 @@ document.addEventListener('DOMContentLoaded', () => {
         mActionBtn.innerText = btnText;
         mText.readOnly = isReadonly;
         modal.style.display = 'flex';
+
+        if (!isReadonly) {
+            mText.focus();
+        }
     };
 
     mCloseBtn.onclick = closeModal;
