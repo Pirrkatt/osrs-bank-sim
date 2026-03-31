@@ -35,7 +35,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 div.id = `item-source-${index}`; 
 
                 div.draggable = true;
-                div.innerHTML = `<img loading="lazy" src="cdn/items/${item.image}" data-name="${item.name}" onerror="this.parentElement.remove();">`;
+                div.innerHTML = `<img loading="lazy" src="cdn/items/${item.image}" data-id="${item.id}" data-name="${item.name}" onerror="this.parentElement.remove();">`;
 
                 div.addEventListener('dblclick', () => {
                     addItemToNextFreeSlot(div);

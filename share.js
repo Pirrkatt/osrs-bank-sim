@@ -1,5 +1,20 @@
 document.addEventListener('DOMContentLoaded', () => {
     let copyTimeout;
+    let itemsMap = null;
+
+    // Lazy-load and map items.json for faster lookups during import
+    const getItemsMap = async () => {
+        if (itemsMap) return itemsMap;
+        try {
+            const r = await fetch("./cdn/json/items.json");
+            const items = await r.json();
+            itemsMap = new Map(items.map(i => [String(i.id), i]));
+            return itemsMap;
+        } catch (e) {
+            console.error("Failed to load item database:", e);
+            return new Map();
+        }
+    };
 
     document.body.insertAdjacentHTML('beforeend', `
         <div id="share-modal" class="modal-overlay">
@@ -57,13 +72,10 @@ document.addEventListener('DOMContentLoaded', () => {
         
         if (!activeLayout) return;
 
+        // Version 2: Simple array of IDs
         const data = {
-            v: 1,
-            s: activeLayout.data.map(item => {
-                if (!item || !item.src) return 0;
-                const filename = decodeURIComponent(item.src.split('/').pop());
-                return [filename, item.name];
-            })
+            v: 2,
+            s: activeLayout.data.map(item => (item && (item.id !== undefined && item.id !== null && item.id !== '')) ? parseInt(item.id) : -1)
         };
 
         const compressed = LZString.compressToEncodedURIComponent(JSON.stringify(data));
@@ -83,33 +95,38 @@ document.addEventListener('DOMContentLoaded', () => {
     document.getElementById('import-tab').addEventListener('click', () => {
         openModal("Import Tab", "Paste the code below to import it as a new tab:", "Import Tab", false);
 
-        mActionBtn.onclick = () => {
+        mActionBtn.onclick = async () => {
             const code = mText.value.trim();
             if (!code) return;
 
             try {
                 const savedLayouts = StorageManager.getSavedLayouts();
                 if (savedLayouts.length >= 10) {
-                    mError.innerText = "Import Failed:\nYou already have the maximum amount of tabs.\nRemove one and try again.";
-                    mError.style.display = 'block';
-                    return;
+                    throw new Error("You already have the maximum amount of tabs (10).");
                 }
 
                 const json = LZString.decompressFromEncodedURIComponent(code);
-                if (!json) throw new Error();
+                if (!json) throw new Error("The code is invalid or corrupted.");
 
                 const data = JSON.parse(json);
-                if (data.v !== 1 || !Array.isArray(data.s)) throw new Error();
+                let tabData = [];
+
+                if (data.v === 2 && Array.isArray(data.s)) {
+                    const map = await getItemsMap();
+                    tabData = data.s.map(id => {
+                        if (id === -1) return null;
+                        const item = map.get(String(id));
+                        return item ? { 
+                            id: item.id, 
+                            src: `cdn/items/${item.image}`, 
+                            name: item.name 
+                        } : null;
+                    });
+                } else {
+                    throw new Error("Unsupported or invalid format version.");
+                }
 
                 const slots = Array.from(document.querySelectorAll('.slot'));
-                const tabData = data.s.map(item => {
-                    if (!item || item === 0) return null;
-                    return {
-                        src: `cdn/items/${item[0]}`,
-                        name: item[1]
-                    };
-                });
-
                 while (tabData.length < slots.length) tabData.push(null);
 
                 const newId = `layout-${Date.now()}`;
@@ -122,7 +139,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 StorageManager.updateAddTabButtonState();
                 closeModal();
             } catch (err) {
-                mError.innerText = "Import Failed:\nThe code is invalid or corrupted.";
+                mError.innerText = "Import Failed:\n" + err.message;
                 mError.style.display = 'block';
             }
         };

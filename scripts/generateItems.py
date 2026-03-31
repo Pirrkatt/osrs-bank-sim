@@ -211,6 +211,10 @@ def main():
             item_id = int(raw_id[0]) if raw_id else None
             if item_id is None:
                 continue
+
+            # Ignore item with ID 0 (Dwarf Remains) for simplicity
+            if item_id == 0:
+                continue
         except (ValueError, TypeError, IndexError):
             continue
 
