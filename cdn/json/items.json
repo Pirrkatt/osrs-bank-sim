@@ -2240,80 +2240,10 @@
     "category": null
   },
   {
-    "name": "Ahrim's hood 0",
-    "id": 4860,
-    "image": "Ahrim's_hood_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ahrim's hood 100",
-    "id": 4856,
-    "image": "Ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ahrim's hood 25",
-    "id": 4859,
-    "image": "Ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ahrim's hood 50",
-    "id": 4858,
-    "image": "Ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ahrim's hood 75",
-    "id": 4857,
-    "image": "Ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Ahrim's hood",
     "id": 4708,
     "image": "Ahrim's_hood.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robeskirt 0",
-    "id": 4878,
-    "image": "Ahrim's_robeskirt_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robeskirt 100",
-    "id": 4874,
-    "image": "Ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robeskirt 25",
-    "id": 4877,
-    "image": "Ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robeskirt 50",
-    "id": 4876,
-    "image": "Ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robeskirt 75",
-    "id": 4875,
-    "image": "Ahrim's_robeskirt.png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -2324,80 +2254,10 @@
     "category": null
   },
   {
-    "name": "Ahrim's robetop 0",
-    "id": 4872,
-    "image": "Ahrim's_robetop_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robetop 100",
-    "id": 4868,
-    "image": "Ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robetop 25",
-    "id": 4871,
-    "image": "Ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robetop 50",
-    "id": 4870,
-    "image": "Ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's robetop 75",
-    "id": 4869,
-    "image": "Ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Ahrim's robetop",
     "id": 4712,
     "image": "Ahrim's_robetop.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff 0",
-    "id": 4866,
-    "image": "Ahrim's_staff_0.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff 100",
-    "id": 4862,
-    "image": "Ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff 25",
-    "id": 4865,
-    "image": "Ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff 50",
-    "id": 4864,
-    "image": "Ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Ahrim's staff 75",
-    "id": 4863,
-    "image": "Ahrim's_staff.png",
-    "slot": "weapon",
     "category": null
   },
   {
@@ -25753,80 +25613,10 @@
     "category": null
   },
   {
-    "name": "Dharok's greataxe 0",
-    "id": 4890,
-    "image": "Dharok's_greataxe_0.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's greataxe 100",
-    "id": 4886,
-    "image": "Dharok's_greataxe.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's greataxe 25",
-    "id": 4889,
-    "image": "Dharok's_greataxe.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's greataxe 50",
-    "id": 4888,
-    "image": "Dharok's_greataxe.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's greataxe 75",
-    "id": 4887,
-    "image": "Dharok's_greataxe.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Dharok's greataxe",
     "id": 4718,
     "image": "Dharok's_greataxe.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm 0",
-    "id": 4884,
-    "image": "Dharok's_helm_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm 100",
-    "id": 4880,
-    "image": "Dharok's_helm_100.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm 25",
-    "id": 4883,
-    "image": "Dharok's_helm_25.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm 50",
-    "id": 4882,
-    "image": "Dharok's_helm_50.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Dharok's helm 75",
-    "id": 4881,
-    "image": "Dharok's_helm_75.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -25837,80 +25627,10 @@
     "category": null
   },
   {
-    "name": "Dharok's platebody 0",
-    "id": 4896,
-    "image": "Dharok's_platebody_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platebody 100",
-    "id": 4892,
-    "image": "Dharok's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platebody 25",
-    "id": 4895,
-    "image": "Dharok's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platebody 50",
-    "id": 4894,
-    "image": "Dharok's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platebody 75",
-    "id": 4893,
-    "image": "Dharok's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Dharok's platebody",
     "id": 4720,
     "image": "Dharok's_platebody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs 0",
-    "id": 4902,
-    "image": "Dharok's_platelegs_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs 100",
-    "id": 4898,
-    "image": "Dharok's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs 25",
-    "id": 4901,
-    "image": "Dharok's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs 50",
-    "id": 4900,
-    "image": "Dharok's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Dharok's platelegs 75",
-    "id": 4899,
-    "image": "Dharok's_platelegs.png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -29050,41 +28770,6 @@
     "category": null
   },
   {
-    "name": "Echo ahrim's hood 0",
-    "id": 30543,
-    "image": "Echo_ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's hood 100",
-    "id": 30519,
-    "image": "Echo_ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's hood 25",
-    "id": 30537,
-    "image": "Echo_ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's hood 50",
-    "id": 30531,
-    "image": "Echo_ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's hood 75",
-    "id": 30525,
-    "image": "Echo_ahrim's_hood.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Echo ahrim's hood",
     "id": 30445,
     "image": "Echo_ahrim's_hood.png",
@@ -29099,41 +28784,6 @@
     "category": null
   },
   {
-    "name": "Echo ahrim's robeskirt 0",
-    "id": 30547,
-    "image": "Echo_ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robeskirt 100",
-    "id": 30523,
-    "image": "Echo_ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robeskirt 25",
-    "id": 30541,
-    "image": "Echo_ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robeskirt 50",
-    "id": 30535,
-    "image": "Echo_ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robeskirt 75",
-    "id": 30529,
-    "image": "Echo_ahrim's_robeskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Echo ahrim's robeskirt",
     "id": 30449,
     "image": "Echo_ahrim's_robeskirt.png",
@@ -29141,80 +28791,10 @@
     "category": null
   },
   {
-    "name": "Echo ahrim's robetop 0",
-    "id": 30545,
-    "image": "Echo_ahrim's_robetop_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robetop 100",
-    "id": 30521,
-    "image": "Echo_ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robetop 25",
-    "id": 30539,
-    "image": "Echo_ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robetop 50",
-    "id": 30533,
-    "image": "Echo_ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's robetop 75",
-    "id": 30527,
-    "image": "Echo_ahrim's_robetop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Echo ahrim's robetop",
     "id": 30447,
     "image": "Echo_ahrim's_robetop.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's staff 0",
-    "id": 30574,
-    "image": "Echo_ahrim's_staff_0.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's staff 100",
-    "id": 30570,
-    "image": "Echo_ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's staff 25",
-    "id": 30573,
-    "image": "Echo_ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's staff 50",
-    "id": 30572,
-    "image": "Echo_ahrim's_staff.png",
-    "slot": "weapon",
-    "category": null
-  },
-  {
-    "name": "Echo ahrim's staff 75",
-    "id": 30571,
-    "image": "Echo_ahrim's_staff.png",
-    "slot": "weapon",
     "category": null
   },
   {
@@ -33607,13 +33187,6 @@
     "category": null
   },
   {
-    "name": "Fungicide spray 0",
-    "id": 7431,
-    "image": "Fungicide_spray.png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Fungicide spray 1",
     "id": 7430,
     "image": "Fungicide_spray.png",
@@ -37646,80 +37219,10 @@
     "category": null
   },
   {
-    "name": "Guthan's chainskirt 0",
-    "id": 4926,
-    "image": "Guthan's_chainskirt_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Guthan's chainskirt 100",
-    "id": 4922,
-    "image": "Guthan's_chainskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Guthan's chainskirt 25",
-    "id": 4925,
-    "image": "Guthan's_chainskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Guthan's chainskirt 50",
-    "id": 4924,
-    "image": "Guthan's_chainskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Guthan's chainskirt 75",
-    "id": 4923,
-    "image": "Guthan's_chainskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Guthan's chainskirt",
     "id": 4730,
     "image": "Guthan's_chainskirt.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Guthan's helm 0",
-    "id": 4908,
-    "image": "Guthan's_helm_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthan's helm 100",
-    "id": 4904,
-    "image": "Guthan's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthan's helm 25",
-    "id": 4907,
-    "image": "Guthan's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthan's helm 50",
-    "id": 4906,
-    "image": "Guthan's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Guthan's helm 75",
-    "id": 4905,
-    "image": "Guthan's_helm.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -37730,80 +37233,10 @@
     "category": null
   },
   {
-    "name": "Guthan's platebody 0",
-    "id": 4920,
-    "image": "Guthan's_platebody_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Guthan's platebody 100",
-    "id": 4916,
-    "image": "Guthan's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Guthan's platebody 25",
-    "id": 4919,
-    "image": "Guthan's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Guthan's platebody 50",
-    "id": 4918,
-    "image": "Guthan's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Guthan's platebody 75",
-    "id": 4917,
-    "image": "Guthan's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Guthan's platebody",
     "id": 4728,
     "image": "Guthan's_platebody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Guthan's warspear 0",
-    "id": 4914,
-    "image": "Guthan's_warspear_0.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Guthan's warspear 100",
-    "id": 4910,
-    "image": "Guthan's_warspear.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Guthan's warspear 25",
-    "id": 4913,
-    "image": "Guthan's_warspear.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Guthan's warspear 50",
-    "id": 4912,
-    "image": "Guthan's_warspear.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Guthan's warspear 75",
-    "id": 4911,
-    "image": "Guthan's_warspear.png",
-    "slot": "2h",
     "category": null
   },
   {
@@ -42847,80 +42280,10 @@
     "category": null
   },
   {
-    "name": "Karil's coif 0",
-    "id": 4932,
-    "image": "Karil's_coif_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Karil's coif 100",
-    "id": 4928,
-    "image": "Karil's_coif.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Karil's coif 25",
-    "id": 4931,
-    "image": "Karil's_coif.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Karil's coif 50",
-    "id": 4930,
-    "image": "Karil's_coif.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Karil's coif 75",
-    "id": 4929,
-    "image": "Karil's_coif.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Karil's coif",
     "id": 4732,
     "image": "Karil's_coif.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Karil's crossbow 0",
-    "id": 4938,
-    "image": "Karil's_crossbow_0.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Karil's crossbow 100",
-    "id": 4934,
-    "image": "Karil's_crossbow.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Karil's crossbow 25",
-    "id": 4937,
-    "image": "Karil's_crossbow.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Karil's crossbow 50",
-    "id": 4936,
-    "image": "Karil's_crossbow.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Karil's crossbow 75",
-    "id": 4935,
-    "image": "Karil's_crossbow.png",
-    "slot": "2h",
     "category": null
   },
   {
@@ -42931,80 +42294,10 @@
     "category": null
   },
   {
-    "name": "Karil's leatherskirt 0",
-    "id": 4950,
-    "image": "Karil's_leatherskirt_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Karil's leatherskirt 100",
-    "id": 4946,
-    "image": "Karil's_leatherskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Karil's leatherskirt 25",
-    "id": 4949,
-    "image": "Karil's_leatherskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Karil's leatherskirt 50",
-    "id": 4948,
-    "image": "Karil's_leatherskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Karil's leatherskirt 75",
-    "id": 4947,
-    "image": "Karil's_leatherskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
     "name": "Karil's leatherskirt",
     "id": 4738,
     "image": "Karil's_leatherskirt.png",
     "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Karil's leathertop 0",
-    "id": 4944,
-    "image": "Karil's_leathertop_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Karil's leathertop 100",
-    "id": 4940,
-    "image": "Karil's_leathertop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Karil's leathertop 25",
-    "id": 4943,
-    "image": "Karil's_leathertop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Karil's leathertop 50",
-    "id": 4942,
-    "image": "Karil's_leathertop.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Karil's leathertop 75",
-    "id": 4941,
-    "image": "Karil's_leathertop.png",
-    "slot": "body",
     "category": null
   },
   {
@@ -75327,80 +74620,10 @@
     "category": null
   },
   {
-    "name": "Torag's hammers 0",
-    "id": 4962,
-    "image": "Torag's_hammers_0.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's hammers 100",
-    "id": 4958,
-    "image": "Torag's_hammers.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's hammers 25",
-    "id": 4961,
-    "image": "Torag's_hammers.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's hammers 50",
-    "id": 4960,
-    "image": "Torag's_hammers.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's hammers 75",
-    "id": 4959,
-    "image": "Torag's_hammers.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
     "name": "Torag's hammers",
     "id": 4747,
     "image": "Torag's_hammers.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Torag's helm 0",
-    "id": 4956,
-    "image": "Torag's_helm_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Torag's helm 100",
-    "id": 4952,
-    "image": "Torag's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Torag's helm 25",
-    "id": 4955,
-    "image": "Torag's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Torag's helm 50",
-    "id": 4954,
-    "image": "Torag's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Torag's helm 75",
-    "id": 4953,
-    "image": "Torag's_helm.png",
-    "slot": "head",
     "category": null
   },
   {
@@ -75411,80 +74634,10 @@
     "category": null
   },
   {
-    "name": "Torag's platebody 0",
-    "id": 4968,
-    "image": "Torag's_platebody_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torag's platebody 100",
-    "id": 4964,
-    "image": "Torag's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torag's platebody 25",
-    "id": 4967,
-    "image": "Torag's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torag's platebody 50",
-    "id": 4966,
-    "image": "Torag's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torag's platebody 75",
-    "id": 4965,
-    "image": "Torag's_platebody.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Torag's platebody",
     "id": 4749,
     "image": "Torag's_platebody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torag's platelegs 0",
-    "id": 4974,
-    "image": "Torag's_platelegs_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Torag's platelegs 100",
-    "id": 4970,
-    "image": "Torag's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Torag's platelegs 25",
-    "id": 4973,
-    "image": "Torag's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Torag's platelegs 50",
-    "id": 4972,
-    "image": "Torag's_platelegs.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Torag's platelegs 75",
-    "id": 4971,
-    "image": "Torag's_platelegs.png",
-    "slot": "legs",
     "category": null
   },
   {
@@ -75677,13 +74830,6 @@
     "category": null
   },
   {
-    "name": "Torva full helm (damaged)",
-    "id": 26376,
-    "image": "Torva_full_helm_(damaged).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Torva full helm",
     "id": 26382,
     "image": "Torva_full_helm.png",
@@ -75691,24 +74837,10 @@
     "category": null
   },
   {
-    "name": "Torva platebody (damaged)",
-    "id": 26378,
-    "image": "Torva_platebody_(damaged).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Torva platebody",
     "id": 26384,
     "image": "Torva_platebody.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Torva platelegs (damaged)",
-    "id": 26380,
-    "image": "Torva_platelegs_(damaged).png",
-    "slot": "",
     "category": null
   },
   {
@@ -78645,80 +77777,10 @@
     "category": null
   },
   {
-    "name": "Verac's brassard 0",
-    "id": 4992,
-    "image": "Verac's_brassard_0.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's brassard 100",
-    "id": 4988,
-    "image": "Verac's_brassard.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's brassard 25",
-    "id": 4991,
-    "image": "Verac's_brassard.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's brassard 50",
-    "id": 4990,
-    "image": "Verac's_brassard.png",
-    "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's brassard 75",
-    "id": 4989,
-    "image": "Verac's_brassard.png",
-    "slot": "body",
-    "category": null
-  },
-  {
     "name": "Verac's brassard",
     "id": 4757,
     "image": "Verac's_brassard.png",
     "slot": "body",
-    "category": null
-  },
-  {
-    "name": "Verac's flail 0",
-    "id": 4986,
-    "image": "Verac's_flail_0.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Verac's flail 100",
-    "id": 4982,
-    "image": "Verac's_flail.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Verac's flail 25",
-    "id": 4985,
-    "image": "Verac's_flail.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Verac's flail 50",
-    "id": 4984,
-    "image": "Verac's_flail.png",
-    "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Verac's flail 75",
-    "id": 4983,
-    "image": "Verac's_flail.png",
-    "slot": "2h",
     "category": null
   },
   {
@@ -78729,80 +77791,10 @@
     "category": null
   },
   {
-    "name": "Verac's helm 0",
-    "id": 4980,
-    "image": "Verac's_helm_0.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's helm 100",
-    "id": 4976,
-    "image": "Verac's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's helm 25",
-    "id": 4979,
-    "image": "Verac's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's helm 50",
-    "id": 4978,
-    "image": "Verac's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's helm 75",
-    "id": 4977,
-    "image": "Verac's_helm.png",
-    "slot": "head",
-    "category": null
-  },
-  {
     "name": "Verac's helm",
     "id": 4753,
     "image": "Verac's_helm.png",
     "slot": "head",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt 0",
-    "id": 4998,
-    "image": "Verac's_plateskirt_0.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt 100",
-    "id": 4994,
-    "image": "Verac's_plateskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt 25",
-    "id": 4997,
-    "image": "Verac's_plateskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt 50",
-    "id": 4996,
-    "image": "Verac's_plateskirt.png",
-    "slot": "legs",
-    "category": null
-  },
-  {
-    "name": "Verac's plateskirt 75",
-    "id": 4995,
-    "image": "Verac's_plateskirt.png",
-    "slot": "legs",
     "category": null
   },
   {

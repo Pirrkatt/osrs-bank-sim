@@ -34,6 +34,7 @@ NAME_EXCEPTIONS = [
     'null <sup',
     '(nz)',
     '(broken)',
+    '(damaged)',
     '(l)',
     '(bh)',
 ]
@@ -46,6 +47,10 @@ IMAGE_EXCEPTIONS = [
     '(Barbarian Assault)',
     '(The Slug Menace)',
     '(Last Man Standing)',
+]
+
+BARROWS_EXCEPTIONS = [
+    r'\s(0|25|50|75|100)$',
 ]
 
 def get_safe_filename(wiki_name):
@@ -162,6 +167,9 @@ def main():
 
         # Filtering
         if any(term.lower() in item_name.lower() for term in NAME_EXCEPTIONS):
+            continue
+        
+        if any(re.search(pattern, item_name, re.IGNORECASE) for pattern in BARROWS_EXCEPTIONS):
             continue
 
         if any(term.lower() in wiki_img_name.lower() for term in IMAGE_EXCEPTIONS):
