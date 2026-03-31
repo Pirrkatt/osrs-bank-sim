@@ -5299,13 +5299,6 @@
     "category": null
   },
   {
-    "name": "Armadyl godsword",
-    "id": 22665,
-    "image": "Armadyl_godsword_(rotten).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Armadyl godsword ornament kit",
     "id": 20068,
     "image": "Armadyl_godsword_ornament_kit.png",
@@ -22890,13 +22883,6 @@
     "category": null
   },
   {
-    "name": "Crystal bow (inactive)",
-    "id": 23985,
-    "image": "Crystal_bow.png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Crystal chime",
     "id": 28577,
     "image": "Crystal_chime.png",
@@ -23048,13 +23034,6 @@
     "id": 23987,
     "image": "Crystal_halberd.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Crystal halberd (inactive)",
-    "id": 23989,
-    "image": "Crystal_halberd.png",
-    "slot": "",
     "category": null
   },
   {
@@ -23431,13 +23410,6 @@
   {
     "name": "Crystal shield",
     "id": 23991,
-    "image": "Crystal_shield.png",
-    "slot": "shield",
-    "category": null
-  },
-  {
-    "name": "Crystal shield (inactive)",
-    "id": 23993,
     "image": "Crystal_shield.png",
     "slot": "shield",
     "category": null
@@ -25533,13 +25505,6 @@
     "id": 28682,
     "image": "Dinh's_blazing_bulwark.png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Dinh's blazing bulwark",
-    "id": 31132,
-    "image": "Dinh's_blazing_bulwark_(rotten).png",
-    "slot": "",
     "category": null
   },
   {
@@ -60501,13 +60466,6 @@
     "category": null
   },
   {
-    "name": "Rubber chicken",
-    "id": 22666,
-    "image": "Rubber_chicken_(rotten).png",
-    "slot": "",
-    "category": null
-  },
-  {
     "name": "Rubber tube",
     "id": 276,
     "image": "Rubber_tube.png",
@@ -63431,13 +63389,6 @@
     "id": 1419,
     "image": "Scythe_(Halloween_event).png",
     "slot": "2h",
-    "category": null
-  },
-  {
-    "name": "Scythe of vitur",
-    "id": 22664,
-    "image": "Scythe_of_vitur_(rotten).png",
-    "slot": "",
     "category": null
   },
   {
@@ -77381,13 +77332,6 @@
     "name": "Veiled kraken tentacle",
     "id": 33144,
     "image": "Veiled_kraken_tentacle.png",
-    "slot": "",
-    "category": null
-  },
-  {
-    "name": "Venator bow",
-    "id": 31133,
-    "image": "Venator_bow_(rotten).png",
     "slot": "",
     "category": null
   },

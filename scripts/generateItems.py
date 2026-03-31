@@ -41,6 +41,7 @@ NAME_EXCEPTIONS = [
     '(l)',
     '(bh)',
     'Anim offhand',
+    '(inactive)',
 ]
 
 IMAGE_EXCEPTIONS = [
@@ -57,6 +58,7 @@ IMAGE_EXCEPTIONS = [
     '(inactive)',
     '(uncharged, deadman)',
     '(inactive, deadman)',
+    '(rotten)',
 ]
 
 BARROWS_EXCEPTIONS = [
