@@ -42,6 +42,7 @@ NAME_EXCEPTIONS = [
     '(bh)',
     'Anim offhand',
     '(inactive)',
+    '(wrapped)'
 ]
 
 IMAGE_EXCEPTIONS = [

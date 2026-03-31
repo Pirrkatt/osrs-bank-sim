@@ -7329,13 +7329,6 @@
     "category": null
   },
   {
-    "name": "Barrows gloves (wrapped)",
-    "id": 27112,
-    "image": "Barrows_gloves_(wrapped).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
     "name": "Barrows teleport",
     "id": 19629,
     "image": "Barrows_teleport_(tablet).png",
@@ -47691,13 +47684,6 @@
     "category": null
   },
   {
-    "name": "Mithril gloves (wrapped)",
-    "id": 27110,
-    "image": "Mithril_gloves_(wrapped).png",
-    "slot": "hands",
-    "category": null
-  },
-  {
     "name": "Mithril gold-trimmed set (lg)",
     "id": 13008,
     "image": "Mithril_gold-trimmed_set_(lg).png",
@@ -60966,13 +60952,6 @@
     "name": "Rune gloves",
     "id": 7460,
     "image": "Rune_gloves.png",
-    "slot": "hands",
-    "category": null
-  },
-  {
-    "name": "Rune gloves (wrapped)",
-    "id": 27111,
-    "image": "Rune_gloves_(wrapped).png",
     "slot": "hands",
     "category": null
   },
