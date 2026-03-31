@@ -8,6 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         try {
             const r = await fetch("./cdn/json/items.json");
             const items = await r.json();
+
+            // Store as Map for O(1) lookup
             itemsMap = new Map(items.map(i => [String(i.id), i]));
             return itemsMap;
         } catch (e) {
@@ -66,19 +68,25 @@ document.addEventListener('DOMContentLoaded', () => {
     mCloseBtn.onclick = closeModal;
     modal.onclick = (e) => { if(e.target === modal) closeModal(); };
 
+    // Version 3: Ultra-compact sparse Base36 export
     document.getElementById('export-tab').addEventListener('click', () => {
         const layouts = StorageManager.getSavedLayouts();
         const activeLayout = layouts.find(l => String(l.id) === String(StorageManager.currentActiveLayoutId));
         
         if (!activeLayout) return;
 
-        // Version 2: Simple array of IDs
-        const data = {
-            v: 2,
-            s: activeLayout.data.map(item => (item && (item.id !== undefined && item.id !== null && item.id !== '')) ? parseInt(item.id) : -1)
-        };
+        // Create a string: "v3|index36:id36|index36:id36..."
+        // Only include slots that actually have an item
+        const packedData = activeLayout.data.reduce((acc, item, index) => {
+            if (item && item.id !== undefined && item.id !== null) {
+                const b36Index = index.toString(36);
+                const b36Id = parseInt(item.id).toString(36);
+                acc.push(`${b36Index}:${b36Id}`);
+            }
+            return acc;
+        }, ["v3"]).join('|');
 
-        const compressed = LZString.compressToEncodedURIComponent(JSON.stringify(data));
+        const compressed = LZString.compressToEncodedURIComponent(packedData);
         openModal("Export Tab", "Copy the code below to share this tab:", "Copy Code", true);
         mText.value = compressed;
         
@@ -92,6 +100,7 @@ document.addEventListener('DOMContentLoaded', () => {
         };
     });
 
+    // Version 3: Ultra-compact import
     document.getElementById('import-tab').addEventListener('click', () => {
         openModal("Import Tab", "Paste the code below to import it as a new tab:", "Import Tab", false);
 
@@ -105,29 +114,34 @@ document.addEventListener('DOMContentLoaded', () => {
                     throw new Error("You already have the maximum amount of tabs (10).");
                 }
 
-                const json = LZString.decompressFromEncodedURIComponent(code);
-                if (!json) throw new Error("The code is invalid or corrupted.");
+                const rawData = LZString.decompressFromEncodedURIComponent(code);
+                if (!rawData) throw new Error("The code is invalid or corrupted.");
 
-                const data = JSON.parse(json);
-                let tabData = [];
+                const parts = rawData.split('|');
+                const version = parts.shift(); // Remove and get the version (e.g., "v3")
 
-                if (data.v === 2 && Array.isArray(data.s)) {
-                    const map = await getItemsMap();
-                    tabData = data.s.map(id => {
-                        if (id === -1) return null;
-                        const item = map.get(String(id));
-                        return item ? { 
-                            id: item.id, 
-                            src: `cdn/items/${item.image}`, 
-                            name: item.name 
-                        } : null;
-                    });
-                } else {
-                    throw new Error("Unsupported or invalid format version.");
+                if (version !== 'v3') {
+                    throw new Error("Unsupported format version. This importer requires v3.");
                 }
 
                 const slots = Array.from(document.querySelectorAll('.slot'));
-                while (tabData.length < slots.length) tabData.push(null);
+                const tabData = new Array(slots.length).fill(null);
+                const map = await getItemsMap();
+
+                parts.forEach(entry => {
+                    const [b36Index, b36Id] = entry.split(':');
+                    const realIndex = parseInt(b36Index, 36);
+                    const realId = parseInt(b36Id, 36);
+                    
+                    const item = map.get(String(realId));
+                    if (item && realIndex < tabData.length) {
+                        tabData[realIndex] = { 
+                            id: item.id, 
+                            src: `cdn/items/${item.image}`, 
+                            name: item.name 
+                        };
+                    }
+                });
 
                 const newId = `layout-${Date.now()}`;
                 savedLayouts.push({ id: newId, data: tabData });
