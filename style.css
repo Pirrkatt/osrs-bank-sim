@@ -37,7 +37,7 @@ body {
   justify-content: center;
   align-items: flex-start;
   gap: 20px;
-  padding: 40px 20px;
+  padding: 14px 20px;
   background: radial-gradient(circle at center, #1e1e1e 0%, #0a0a0a 100%);
   box-shadow: inset 0 0 80px rgba(0, 0, 0, 0.9);
   min-height: 100vh;
@@ -198,7 +198,7 @@ body {
 
 .item-panel {
     width: 330px;
-    height: 866px;
+    height: 890px;
     background: var(--color-darkgrey);
     border: 1px solid var(--color-almostblack);
     border-radius: 8px;
