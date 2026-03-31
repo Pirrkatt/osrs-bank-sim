@@ -138,11 +138,15 @@ body {
   border: none;
 }
 
-.item img {
-  width: 100%;
-  height: 100%;
-  object-fit: contain;
-  object-position: center;
+.slot .item img {
+    width: auto;
+    height: auto;
+
+    transform: scale(1.25);
+
+    object-fit: contain;
+    display: block;
+    margin: auto;
 }
 
 .item.dragging {
@@ -264,8 +268,12 @@ body {
 }
 
 .item-list .item img {
-    width: 32px;
-    height: 32px;
+    max-width: 36px;  
+    max-height: 32px; 
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    object-position: center;
     filter: drop-shadow(2px 2px 2px rgba(0,0,0,0.8));
 }
 
