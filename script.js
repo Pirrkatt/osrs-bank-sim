@@ -174,6 +174,18 @@ function updateBankCounter() {
     });
     const counter = document.getElementById('current-count');
     if (counter) counter.textContent = filledCount;
+
+    // Update status for export-button
+    const exportBtn = document.getElementById('export-tab');
+    if (exportBtn) {
+        if (filledCount === 0) {
+            exportBtn.disabled = true;
+            exportBtn.setAttribute('data-tooltip', 'Cannot export an empty tab');
+        } else {
+            exportBtn.disabled = false;
+            exportBtn.removeAttribute('data-tooltip');
+        }
+    }
 }
 
 function addItemToNextFreeSlot(sourceItem) {

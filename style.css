@@ -333,7 +333,8 @@ body {
     filter: brightness(1) !important;
 }
 
-.save-layout-btn[disabled]:hover::after {
+.save-layout-btn[disabled]:hover::after,
+#export-tab[disabled]:hover::after {
     content: attr(data-tooltip);
     position: absolute;
     bottom: -24px;
@@ -478,6 +479,7 @@ body {
 
 /* SIDE PANEL */
 .side-panel {
+    position: relative;
     width: 380px; /* Gjorde den lite bredare */
     background: var(--color-darkgrey);
     border: 1px solid var(--color-almostblack);
@@ -578,6 +580,14 @@ strong.green { color: #43a047; }
 
 .side-btn.primary:hover {
     background: #5a4c2a;
+}
+
+#export-tab:disabled {
+    position: relative;
+    background: #1a1a1a !important;
+    border-color: #333 !important;
+    color: #666 !important;
+    cursor: default;
 }
 
 #autosave-toggle.enabled {
